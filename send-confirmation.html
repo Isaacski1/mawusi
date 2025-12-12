@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Send Confirmation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 50px 20px;
+        background: #f7fafc;
+      }
+      .loading {
+        font-size: 18px;
+        color: #2d3748;
+      }
+      .spinner {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #38a169;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 2s linear infinite;
+        margin: 20px auto;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .success {
+        color: #38a169;
+        font-size: 18px;
+      }
+      .error {
+        color: #e53e3e;
+        font-size: 16px;
+      }
+    </style>
+    <script>
+      function sendEmail() {
+        try {
+          // Get parameters from URL
+          const urlParams = new URLSearchParams(window.location.search);
+
+          const name = urlParams.get("name") || "";
+          const email = urlParams.get("email") || "";
+          const people = urlParams.get("people") || "";
+          const date = urlParams.get("date") || "";
+          const time = urlParams.get("time") || "";
+
+          if (!name || !email) {
+            document.getElementById("status").innerHTML =
+              '<p class="error">Missing reservation information. Please go back and try again.</p>';
+            return;
+          }
+
+          // Create the email body
+          const emailBody = `Dear ${name},
+
+We have received your reservation for ${people} on ${date} at ${time}.
+
+We will confirm your reservation shortly.
+
+Best regards,
+Mawusi Restaurant Team`;
+
+          // Create the mailto link
+          const subject = `Reservation Confirmation for ${name}`;
+          const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(
+            subject
+          )}&body=${encodeURIComponent(emailBody)}`;
+
+          // Redirect to email client
+          window.location.href = mailtoLink;
+
+          // Show success message
+          setTimeout(function () {
+            document.getElementById("status").innerHTML =
+              '<p class="success">✓ Email client opened! You can close this window.</p>' +
+              '<p style="color: #718096; font-size: 14px; margin-top: 20px;">If the email didn\'t open automatically, please check your email client settings.</p>';
+          }, 1000);
+        } catch (error) {
+          document.getElementById("status").innerHTML =
+            '<p class="error">Error opening email client. Please try again.</p>';
+        }
+      }
+
+      // Start when page loads
+      window.onload = sendEmail;
+    </script>
+  </head>
+  <body>
+    <div class="loading">
+      <div class="spinner"></div>
+      <p>Opening your email client...</p>
+      <div id="status"></div>
+    </div>
+  </body>
+</html>
