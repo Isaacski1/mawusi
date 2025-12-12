@@ -281,7 +281,7 @@ Order Details:
     whatsappButton.innerHTML = `
             <div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 25px; border: 3px solid #25D366; border-radius: 15px; z-index: 10000; box-shadow: 0 10px 30px rgba(0,0,0,0.4); text-align: center; max-width: 90%; width: 400px;">
                 <div style="font-size: 24px; margin-bottom: 10px;">📱</div>
-                <h3 style="color: #25D366; margin-bottom: 15px; font-size: 20px;">Send Order to WhatsApp</h3>
+                <h3 style="color: #25D366; margin-bottom: 15px; font-size: 17px;">Send Order to Mawusi Restaurant WhatsApp Account</h3>
                 <p style="margin-bottom: 20px; color: #666; line-height: 1.5;">Click the button below to send this order to WhatsApp automatically:</p>
                 <a href="${whatsappLink}" target="_blank" style="background: #25D366; color: white; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px; display: inline-block; margin-bottom: 15px; width: 80%;">
                     📲 Open WhatsApp with Order
