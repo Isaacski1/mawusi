@@ -1,0 +1,452 @@
+/* ==================== MAWUSI WEBSITE IMPROVEMENTS ====================
+   This file contains all styling for the new improvements
+ */
+
+/* ==================== FLOATING WHATSAPP BUTTON ====================*/
+.floating-whatsapp {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.floating-whatsapp:hover {
+  transform: scale(1.15) !important;
+  animation: none;
+}
+
+.floating-whatsapp .tooltip {
+  position: absolute;
+  background: #25D366;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  right: 80px;
+  white-space: nowrap;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.floating-whatsapp:hover .tooltip {
+  opacity: 1;
+}
+
+/* ==================== MOBILE FOOTER NAVIGATION ====================*/
+.mobile-footer-nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-footer-nav {
+    display: flex !important;
+  }
+
+  body {
+    padding-bottom: 80px;
+  }
+
+  .mobile-action-btn {
+    transition: all 0.3s ease;
+    border: none;
+    background: transparent;
+  }
+
+  .mobile-action-btn:active {
+    background: #f0f0f0;
+    border-radius: 4px;
+  }
+
+  .mobile-action-btn i {
+    color: #E67E22;
+    transition: color 0.3s;
+  }
+
+  .mobile-action-btn:active i {
+    color: #d35400;
+  }
+}
+
+/* ==================== TESTIMONIALS STYLING ====================*/
+.testimonials-container {
+  margin-top: 60px;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #f9f9f9 0%, #ffffff 100%);
+  border-radius: 12px;
+  border-left: 4px solid #E67E22;
+}
+
+.testimonials-container h3 {
+  font-size: 28px;
+  color: #362725;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.testimonials-container .testimonial-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-top: 3px solid #E67E22;
+}
+
+.testimonials-container .testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(230, 126, 34, 0.15);
+}
+
+.testimonials-container .stars {
+  color: #FFC107;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.testimonials-container .testimonial-text {
+  font-style: italic;
+  color: #696969;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.testimonials-container .testimonial-author {
+  font-weight: 600;
+  color: #362725;
+  font-size: 14px;
+}
+
+/* ==================== FORM IMPROVEMENTS ====================*/
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #E67E22 !important;
+  box-shadow: 0 0 0 3px rgba(230, 126, 34, 0.1) !important;
+  transition: all 0.3s ease;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="phone"],
+input[type="number"],
+select,
+textarea {
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 10px 12px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+  border-color: #28a745;
+  background-color: rgba(40, 167, 69, 0.02);
+}
+
+input:invalid:not(:placeholder-shown),
+select:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+  border-color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.02);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #362725;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.form-error {
+  color: #dc3545;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.form-success {
+  color: #28a745;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* ==================== CTA BUTTON IMPROVEMENTS ====================*/
+.food-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.food-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: left 0.3s ease;
+}
+
+.food-btn:hover::before {
+  left: 100%;
+}
+
+.food-btn-primary {
+  background: linear-gradient(135deg, #E67E22 0%, #D35400 100%);
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.food-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(230, 126, 34, 0.3);
+}
+
+.food-btn-primary:active {
+  transform: translateY(0);
+}
+
+/* ==================== URGENCY MESSAGING ====================*/
+.urgency-badge {
+  display: inline-block;
+  background: #E67E22;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  animation: pulse-badge 2s infinite;
+}
+
+@keyframes pulse-badge {
+  0%, 100% { 
+    box-shadow: 0 0 0 0 rgba(230, 126, 34, 0.7);
+  }
+  50% { 
+    box-shadow: 0 0 0 10px rgba(230, 126, 34, 0);
+  }
+}
+
+/* ==================== HERO SECTION IMPROVEMENTS ====================*/
+.banner-area .hero-content {
+  position: relative;
+  z-index: 5;
+  animation: slideInUp 0.8s ease-out;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-tagline {
+  font-size: 14px;
+  color: #FFC107;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 32px;
+  }
+}
+
+/* ==================== SOCIAL PROOF ====================*/
+.social-proof-section {
+  background: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 40px 0;
+}
+
+.proof-stat {
+  display: inline-block;
+  margin: 0 30px;
+  font-size: 14px;
+  color: #696969;
+}
+
+.proof-stat .number {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: #E67E22;
+  margin-bottom: 5px;
+}
+
+/* ==================== MENU IMPROVEMENTS ====================*/
+.product-item {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.product-item:hover {
+  transform: translateY(-8px);
+}
+
+.product-item .new-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #28a745;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+.product-item .popular-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #E67E22;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+/* ==================== LOADING & ANIMATION ====================*/
+.loading-spinner {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(230, 126, 34, 0.2);
+  border-radius: 50%;
+  border-top-color: #E67E22;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ==================== RESPONSIVE IMPROVEMENTS ====================*/
+@media (max-width: 768px) {
+  .floating-whatsapp {
+    width: 50px !important;
+    height: 50px !important;
+    bottom: 100px !important;
+  }
+
+  .testimonials-container {
+    padding: 20px;
+  }
+
+  .proof-stat {
+    margin: 15px 0;
+  }
+
+  .food-btn-primary {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 24px;
+  }
+
+  .product-item .price {
+    font-size: 14px;
+  }
+
+  .floating-whatsapp {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 20px !important;
+  }
+}
+
+/* ==================== ACCESSIBILITY ====================*/
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .testimonials-container {
+    background: #1a1a1a;
+    color: #f0f0f0;
+  }
+
+  .testimonials-container .testimonial-card {
+    background: #2a2a2a;
+    color: #f0f0f0;
+  }
+
+  .mobile-footer-nav {
+    background: #1a1a1a;
+    border-top-color: #333;
+  }
+}
+
+/* ==================== UTILITY CLASSES ====================*/
+.hidden {
+  display: none !important;
+}
+
+.visible {
+  display: block !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.margin-bottom {
+  margin-bottom: 20px;
+}
+
+.padding-vertical {
+  padding: 40px 0;
+}

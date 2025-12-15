@@ -1,0 +1,31 @@
+# robots.txt for Mawusi Restaurant
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Sitemap
+Sitemap: https://mawusirestaurant.com/sitemap.xml
+
+# Crawl delay for bot consideration (in seconds)
+Crawl-delay: 1
+
+# Allow Google specific indexing
+User-agent: Googlebot
+Allow: /
+
+# Allow Bing
+User-agent: Bingbot
+Allow: /
+
+# Instagram
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
