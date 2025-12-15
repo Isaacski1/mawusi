@@ -208,7 +208,7 @@ aside {
   display: block;
   font-size: 30px;
   font-weight: 500;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .section-header h3 {
   margin-bottom: 10px;
@@ -264,7 +264,7 @@ aside {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   text-align: center;
   border-radius: 50%;
   font-size: 24px;
@@ -281,7 +281,7 @@ aside {
   transform: translateY(-5px);
 }
 .scrollToTop:hover i {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 
 .bg_size {
@@ -306,7 +306,7 @@ aside {
 .cat-name {
   display: block;
   margin-bottom: 5px;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
   font-weight: 600;
   font-size: 14px;
 }
@@ -329,7 +329,7 @@ aside {
 .common-ajax .food-btn {
   width: 130px;
   padding: 10px;
-  background: rgb(1, 48, 177) !important;
+  background: rgb(255, 27, 27) !important;
   cursor: pointer;
   margin-top: 25px !important;
 }
@@ -339,7 +339,7 @@ aside {
 
 /* @@@@@@@@@@@@@  Common CSS Writing Now  @@@@@@@@@@@@@@ */
 .active .dd-icon-down::after {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 
 .dd-icon-down:before,
@@ -403,7 +403,7 @@ aside {
 .food-btn {
   display: inline-block;
   padding: 16px 25px;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   border-radius: 4px;
 }
 .food-btn::after {
@@ -434,17 +434,17 @@ aside {
 .food-btn.style-2 {
   overflow: visible;
   background: transparent;
-  border: 2px solid rgb(1, 48, 177);
+  border: 2px solid rgb(255, 27, 27);
   padding: 14px 30px;
 }
 .food-btn.style-2 span {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .food-btn.style-2 .span-1 {
   color: #fff;
 }
 .food-btn.style-2::after {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
 }
 .food-btn.style-2:hover span {
   color: #fff;
@@ -454,17 +454,17 @@ aside {
   transform-origin: 0% 50%;
 }
 .food-btn.style-3 {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
 }
 
 .text-btn {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .text-btn:hover {
   color: #362725;
 }
 .text-btn:visited {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .text-btn:visited:hover {
   color: #362725;
@@ -547,7 +547,7 @@ aside {
 }
 @media (min-width: 576px) {
   .product-header {
-    background: rgb(1, 48, 177);
+    background: rgb(255, 27, 27);
   }
 }
 .product-header::after {
@@ -583,7 +583,7 @@ aside {
 }
 .product-header .ph-content h5 {
   margin-bottom: 10px;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
   text-transform: uppercase;
 }
 
@@ -598,11 +598,11 @@ aside {
   left: 0;
   width: 30px;
   height: 1px;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   transform: translateY(-50%);
 }
 .meta-tag .categori a {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
   padding-left: 45px;
 }
 .meta-tag .categori a:hover {
@@ -619,7 +619,7 @@ aside {
   color: #696969;
 }
 .meta-post ul li a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .meta-post ul li a.heart,
 .meta-post ul li a.view,
@@ -668,7 +668,7 @@ aside {
   box-shadow: 0px 10px 10px rgba(129, 72, 17, 0.1);
 }
 .food-item:hover .food-content a {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .food-item .food-thumb {
   width: 120px;
@@ -1022,7 +1022,7 @@ aside {
   left: 0;
   transform-origin: left;
   transform: scaleX(0);
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   transition: all 0.3s ease-in-out;
 }
 .single .section-wrapper .related .tab-bar .tablinks.active {
@@ -1191,11 +1191,11 @@ aside {
   color: #696969;
 }
 .food-quyality .section-wrapper ul li a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .food-quyality .section-wrapper ul li a i {
   margin-right: 10px;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 
 .post-item .post-item-inner {
@@ -1254,7 +1254,7 @@ aside {
   margin-right: 0;
 }
 .post-item .post-item-inner .post-content .author-date a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .post-item .post-item-inner .post-content .author-date a i {
   margin-right: 5px;
@@ -1333,7 +1333,7 @@ aside {
   .post-thumb.post-thumb-slider
   .post-thumb-slider-prev
   .active {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   color: #fff;
 }
 .post-item.slider-post
@@ -1418,7 +1418,7 @@ aside {
 }
 
 .product-item {
-  padding: 30px 0;
+  padding: 20px;
   box-shadow: 0 0 10px rgba(136, 136, 136, 0.1);
   text-align: center;
   background: #fff;
@@ -1441,8 +1441,8 @@ aside {
 }
 .product-item:hover .product-thumb .price {
   background: #fff;
-  border-color: rgb(1, 48, 177);
-  color: rgb(1, 48, 177);
+  border-color: rgb(255, 27, 27);
+  color: rgb(255, 27, 27);
 }
 .product-item .product-content h6 p {
   color: #2c2c2c;
@@ -1451,9 +1451,9 @@ aside {
   padding: 0 10px;
 }
 .product-item .product-thumb {
-  width: 200px;
+  /* width: 200px;
   height: 200px;
-  line-height: 200px;
+  line-height: 200px; */
   margin: 0 auto 30px;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -1472,7 +1472,7 @@ aside {
   font-size: 15px;
   font-weight: 600;
   border: 4px solid #fff;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -1480,7 +1480,7 @@ aside {
 }
 .product-item .product-content p {
   margin-bottom: 5px;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 @media (min-width: 576px) {
   .product-item .product-content p {
@@ -1581,7 +1581,7 @@ aside {
   transition: all 0.3s ease;
 }
 .team-item .team-item-inner .team-content .member-name:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .team-item .team-item-inner .team-content .member-dagi {
   margin-bottom: 10px;
@@ -1778,7 +1778,7 @@ aside {
   .intregration-icon
   ul
   a:hover {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
 }
 .team-item.style-2
   .team-item-inner
@@ -1918,7 +1918,7 @@ ul.codex.icon-style-list > li ul li a.behance i {
   transition: all 0.3s ease;
 }
 .cart-plus-minus .qtybutton:hover {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   color: #fff;
 }
 .cart-plus-minus .inc.qtybutton {
@@ -1958,7 +1958,7 @@ ul.codex.icon-style-list > li ul li a.behance i {
 .search-area .search-input .search-close span {
   width: 50px;
   height: 2px;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   top: 25px;
   right: 0px;
   -webkit-transition: all 0.3s ease;
@@ -1989,7 +1989,7 @@ ul.codex.icon-style-list > li ul li a.behance i {
 }
 .search-area .search-input form input:hover,
 .search-area .search-input form input:focus {
-  border-color: rgb(1, 48, 177);
+  border-color: rgb(255, 27, 27);
 }
 
 .scocial-media {
@@ -2057,7 +2057,7 @@ ul.codex.icon-style-list > li ul li a.behance i {
 .paginations ul li a.active,
 .paginations ul li a:hover {
   color: #fff;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
 }
 .paginations ul li a.dot {
   box-shadow: none;
@@ -2090,7 +2090,7 @@ ul.codex.icon-style-list > li ul li a.behance i {
   z-index: 9999;
   width: 100%;
   height: 100%;
-  background-color: rgb(1, 48, 177);
+  background-color: rgb(255, 27, 27);
   overflow: hidden;
 }
 .preloader .preloader-inner {
@@ -2658,7 +2658,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   top: 0;
 }
 .header-section .header-top {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
 }
 .header-section .header-top .top {
   display: flex;
@@ -2686,7 +2686,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 }
 .header-section .header-top .top ul.right li a:hover {
   color: #fff;
-  background-color: rgb(1, 48, 177);
+  background-color: rgb(255, 27, 27);
 }
 .header-section .header-top .top ul.right li:last-child {
   border-right: 1px solid #ffffff42;
@@ -2712,7 +2712,8 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 }
 .header-section .primary-menu .logo a img {
   display: block;
-  width: 140px;
+  width: 80px;
+  height: 60px;
 }
 .header-section .primary-menu .main-area {
   align-items: center;
@@ -2726,7 +2727,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 }
 .header-section .primary-menu .main-area .main-menu ul li.active > a,
 .header-section .primary-menu .main-area .main-menu ul li:hover > a {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .header-section .primary-menu .main-area .main-menu ul li a {
   padding: 40px 15px;
@@ -2739,7 +2740,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 }
 .header-section .primary-menu .main-area .main-menu ul li ul {
   min-width: 200px;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   box-shadow: 0 0 5px rgba(136, 136, 136, 0.1);
   display: block;
   top: 100%;
@@ -2759,11 +2760,11 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 }
 .header-section .primary-menu .main-area .main-menu ul li ul li a:hover {
   padding-left: 20px;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
   background: #fff;
 }
 .header-section .primary-menu .main-area .main-menu ul li ul li.active > a {
-  color: rgb(1, 48, 177) !important;
+  color: rgb(255, 27, 27) !important;
   background: #fff;
 }
 .header-section .primary-menu .main-area .main-menu ul li ul li:last-child a {
@@ -2870,7 +2871,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   font-weight: 500;
   color: #fff;
   display: inline-block;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   transform: translateX(-50%);
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -2898,7 +2899,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   padding: 9px 15px;
   color: #fff;
   border-radius: 12px 12px 0 0;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
 }
 .cart-area .cart-content .cart-title .list-close a {
   color: #fff;
@@ -2998,7 +2999,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   .cart-top
   .content
   a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .cart-area
   .cart-content
@@ -3023,7 +3024,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   width: 20px;
   height: 20px;
   line-height: 20px;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   border-radius: 100%;
   text-align: center;
   box-shadow: -4px 4px 8px rgba(136, 136, 136, 0.36);
@@ -3228,7 +3229,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   color: #362725;
 }
 .page-header .page-title .breadcrumb li a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .page-header.style-2 {
   background: url(../images/page-header/bg.jpg) no-repeat;
@@ -3236,10 +3237,10 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   background-size: cover;
 }
 .page-header.style-2 .page-title h3 {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .page-header.style-2 .page-title .breadcrumb li {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .page-header.style-2 .page-title .breadcrumb li::after {
   background: #362725;
@@ -3248,7 +3249,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   color: #362725;
 }
 .page-header.style-2 .page-title .breadcrumb li a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 
 @media (min-width: 1200px) {
@@ -3272,7 +3273,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   cursor: pointer;
 }
 .mobile-menu .mobile-header .header-bar span {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   width: 100%;
   height: 3px;
   display: block;
@@ -3374,7 +3375,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   ul
   li.active
   > a {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .mobile-menu .mobile-menu .mobile-menu-area .mobile-menu-area-inner ul li a {
   display: block !important;
@@ -3569,7 +3570,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   transform: translate(-50%, -50%);
   justify-content: space-between;
   align-items: center;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -3656,7 +3657,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 }
 .banner-area .banner-content h2 {
   margin: 0;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
   font-size: 42px;
 }
 @media (min-width: 576px) {
@@ -3715,7 +3716,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 }
 .about .about-content .section-header span {
   font-family: "Poppins", sans-serif;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
   display: inline-block;
   font-size: 24px;
   line-height: 1;
@@ -3781,7 +3782,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   }
 }
 .product.style-2 .section-wrapper .tab-bar .tablinks.active {
-  border-top: 2px solid rgb(1, 48, 177);
+  border-top: 2px solid rgb(255, 27, 27);
 }
 .product.style-2 .section-wrapper .tab-bar .tablinks:last-child {
   margin-right: 0;
@@ -3806,7 +3807,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 /* @@@@@@@@@@@@@  Contact Us Section Start Here  @@@@@@@@@@@@@@ */
 .contact-us {
   padding: 80px 0;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
 }
 .contact-us .contact-from {
   -webkit-border-radius: 10px;
@@ -3815,7 +3816,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 }
 .contact-us .contact-from h5 {
   padding: 20px 25px;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
   margin-bottom: 0;
 }
 .contact-us .contact-from form {
@@ -3837,7 +3838,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 .contact-us .contact-from form input[type="submit"] {
   max-width: 200px;
   color: #fff;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   box-shadow: none;
   margin: 0;
 }
@@ -3953,7 +3954,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   transition: all 0.3s ease;
 }
 .team-section .team-top .team-top-area .team-content .member-name:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .team-section .team-top .team-top-area .team-content .member-dagi {
   margin-bottom: 10px;
@@ -4153,7 +4154,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   height: 120px;
   margin: 0 auto;
   padding: 4px;
-  background: #ffb400;
+  background: rgb(255, 68, 68);
   border-radius: 50%;
 }
 .clients-area
@@ -4299,7 +4300,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 .news_link::after {
   right: 0;
   width: 100%;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   display: none;
 }
 @media (min-width: 768px) {
@@ -4320,7 +4321,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 }
 
 .news_link .order-content .content-logo a img {
-  width: 180px;
+  width: 80px;
 }
 @media (min-width: 768px) {
   .news_link .order-content .content-logo {
@@ -4333,7 +4334,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
     color: #2c2c2c !important;
   }
   .content-link ul li .food-btn {
-    background: rgb(1, 48, 177);
+    background: rgb(255, 27, 27);
   }
 }
 .news_link .order-content .content-logo a p {
@@ -4664,7 +4665,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   left: 10px;
   text-align: center;
   font-size: 24px;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
   font-family: IcoFont !important;
 }
 @media (min-width: 576px) {
@@ -4742,7 +4743,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   border: none;
   outline: none;
   color: #fff;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -4836,7 +4837,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   .title
   h5:hover
   a {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .shop-page.single
   .section-wrapper
@@ -4885,7 +4886,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   top: 8px;
   left: 0;
   text-align: center;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .shop-page.single
   .section-wrapper
@@ -5231,7 +5232,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   .entry-meta
   .posted-on
   a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .review
   .section-wrapper
@@ -5349,7 +5350,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   }
 }
 .fore-zero .fore-zero-content h2 span {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .fore-zero .fore-zero-content h3 {
   line-height: 1.3;
@@ -5449,7 +5450,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   background-size: cover;
 }
 .contact-information.home-4 .section-header span {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
   font-weight: 600;
 }
 @media (min-width: 576px) {
@@ -5486,7 +5487,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 }
 .contact-information.home-4 .section-wrapper .con-btn input {
   cursor: pointer;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
 }
 .contact-information.home-4 .section-wrapper .con-btn .food-btn {
   color: #fff;
@@ -5616,7 +5617,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   .post-content
   h5
   a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .blog-section.blog-page
   .section-wrapper
@@ -5635,7 +5636,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   .post-content
   .post-footer
   .text-btn:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .blog-section.blog-page
   .section-wrapper
@@ -5647,7 +5648,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   i {
   margin-left: 5px;
   opacity: 1;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .blog-section.blog-page
   .section-wrapper
@@ -5693,7 +5694,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   left: 50%;
   font-size: 12px;
   text-align: center;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   color: #fff;
   transform: translateX(-50%);
   display: inline-block;
@@ -5792,7 +5793,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   color: #fff;
   margin: 0 0 20px;
   padding: 25px;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
 }
 .blog-section.blog-single
   .section-wrapper
@@ -5978,9 +5979,9 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   li
   a
   .active {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   color: #fff;
-  border-color: rgb(1, 48, 177);
+  border-color: rgb(255, 27, 27);
 }
 .blog-section.blog-single
   .section-wrapper
@@ -6080,7 +6081,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   .right
   .title
   .active {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 @media (min-width: 768px) {
   .blog-section.blog-single .section-wrapper .navigations-part .left .title,
@@ -6126,7 +6127,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   .right
   .prev
   .active {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .blog-section.blog-single .section-wrapper .authors {
   box-shadow: 0 0 10px rgba(136, 136, 136, 0.1);
@@ -6357,7 +6358,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   .com-title-meta
   h6
   a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .blog-section.blog-single
   .section-wrapper
@@ -6408,7 +6409,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   .com-title
   .reply
   .comment-reply-link:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .blog-section.blog-single
   .section-wrapper
@@ -6684,7 +6685,7 @@ p.comment-form-cookies-consent input {
 .widget.widget-category .widget-wrapper li a.active,
 .widget.widget-category .widget-wrapper li a:hover {
   padding-left: 30px;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .widget.widget-post {
   padding: 0;
@@ -6727,7 +6728,7 @@ p.comment-form-cookies-consent input {
   }
 }
 .widget.widget-post ul.widget-wrapper li .post-content h6 a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .widget.widget-post ul.widget-wrapper li .post-content p {
   margin: 0;
@@ -6769,9 +6770,9 @@ p.comment-form-cookies-consent input {
 }
 .widget.widget-tags ul.widget-wrapper li a.active,
 .widget.widget-tags ul.widget-wrapper li a:hover {
-  background-color: rgb(1, 48, 177);
+  background-color: rgb(255, 27, 27);
   color: #fff;
-  border-color: rgb(1, 48, 177);
+  border-color: rgb(255, 27, 27);
 }
 .widget.widget-author {
   padding: 0;
@@ -6850,7 +6851,7 @@ p.comment-form-cookies-consent input {
   transition: all 0.3s ease;
 }
 .shop-title .product-view-mode a.active {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .shop-title .product-view-mode a:last-child {
   margin-left: 5px;
@@ -6912,13 +6913,22 @@ p.comment-form-cookies-consent input {
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.shop-product-wrap .product-item .product-thumb img,
+.product-thumb .img {
+  width: 90px;
+  height: 100px;
+}
+
+.product-thumb .img img {
+  width: 100%;
+  height: 100%;
+}
+/* .shop-product-wrap .product-item .product-thumb img,
 .shop-product-wrap .product-list-item .product-thumb img {
   width: 100%;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
-}
+} */
 .shop-product-wrap .product-item .product-thumb .product-action-link,
 .shop-product-wrap .product-list-item .product-thumb .product-action-link {
   justify-content: center;
@@ -6938,7 +6948,7 @@ p.comment-form-cookies-consent input {
   line-height: 40px;
   text-align: center;
   border-radius: 100%;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   color: #fff;
   margin: 5px;
   -webkit-transition: all 0.3s ease;
@@ -6972,7 +6982,7 @@ p.comment-form-cookies-consent input {
 }
 .shop-product-wrap .product-item .product-content h6 a:hover,
 .shop-product-wrap .product-list-item .product-content h6 a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .shop-product-wrap .product-item .product-content p,
 .shop-product-wrap .product-list-item .product-content p {
@@ -7009,7 +7019,7 @@ p.comment-form-cookies-consent input {
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 600;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
   margin-bottom: 10px;
   display: flex !important;
 }
@@ -7043,7 +7053,7 @@ p.comment-form-cookies-consent input {
   }
 }
 .shop-cart .section-wrapper .cart-top table thead tr th {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   color: #fff;
   padding: 18px;
   border: none;
@@ -7116,7 +7126,7 @@ p.comment-form-cookies-consent input {
   td.product-item
   .p-content
   a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .shop-cart .section-wrapper .cart-bottom {
   box-shadow: 0 0 10px rgba(136, 136, 136, 0.1);
@@ -7147,7 +7157,7 @@ p.comment-form-cookies-consent input {
   .cart-checkout-box
   .coupon
   input[type="submit"] {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   margin-left: -10px;
   outline: none;
   border: none;
@@ -7173,7 +7183,7 @@ p.comment-form-cookies-consent input {
   .cart-checkout-box
   .cart-checkout
   input {
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   color: #fff;
   outline: none;
   border: none;
@@ -7288,7 +7298,7 @@ p.comment-form-cookies-consent input {
   top: 0;
   right: 0;
   padding: 9px 20px;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   color: #fff;
   border: 1px solid #e6e6e6;
   border-radius: 0px 3px 3px 0px;
@@ -7325,7 +7335,7 @@ p.comment-form-cookies-consent input {
   button {
   width: 170px;
   font-size: 14px;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   font-weight: 700;
   color: #fff;
   outline: none;
@@ -7360,7 +7370,7 @@ p.comment-form-cookies-consent input {
   li
   .pull-right {
   margin-bottom: 0;
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 
 /* @@@@@@@@@@@@@  Footer Section Start Here  @@@@@@@@@@@@@@ */
@@ -7427,7 +7437,7 @@ footer .contant-info ul.info li span {
   }
 }
 footer .contant-info ul.info li:hover a span {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 footer .contant-info ul.info a {
   text-decoration: none;
@@ -7494,7 +7504,7 @@ footer .news_letter .contact-search {
 footer .news_letter .contact-search form.searchForm input.searchTerm {
   padding: 15px;
   padding-right: 120px;
-  border: 1px solid rgb(1, 48, 177);
+  border: 1px solid rgb(255, 27, 27);
   font-weight: 300;
   font-size: 16px;
   width: 100%;
@@ -7516,7 +7526,7 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
   font-weight: 600;
   cursor: pointer;
   text-transform: uppercase;
-  background: rgb(1, 48, 177);
+  background: rgb(255, 27, 27);
   border-radius: 0;
   right: 0;
   -webkit-transition: all 0.3s ease;
@@ -7546,7 +7556,7 @@ footer .news_letter ul.follow_us a {
   transition: transition;
 }
 footer .news_letter ul.follow_us a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 
 .fotter-header header {
@@ -7571,9 +7581,9 @@ footer .news_letter ul.follow_us a:hover {
 .fotter-header header .footer-bg .header-item .header-logo p {
   margin-bottom: 0;
 }
-.fotter-header header .footer-bg .header-item .header-logo p a {
+.header-logo p a {
   text-decoration: none;
-  color: #362725;
+  color: rgb(255, 27, 27) !important;
   font-weight: 500;
   padding: 0 5px;
   -webkit-transition: all 0.3s ease;
@@ -7581,7 +7591,7 @@ footer .news_letter ul.follow_us a:hover {
   transition: all 0.3s ease;
 }
 .fotter-header header .footer-bg .header-item .header-logo p a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
 }
 .fotter-header
   header
@@ -7657,7 +7667,32 @@ footer .news_letter ul.follow_us a:hover {
   .main-menu-area
   ul.main-menu
   a:hover {
-  color: rgb(1, 48, 177);
+  color: rgb(255, 27, 27);
+}
+
+/* WhatsApp Chat Bot */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
