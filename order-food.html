@@ -1,209 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- favicon -->
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.ico"
-      type="image/x-icon"
-    />
-    <!-- animate scss -->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!-- bootstarp css -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- icofont -->
-    <link rel="stylesheet" href="assets/css/icofont.min.css" />
-    <link rel="stylesheet" href="assets/css/all.min.css" />
-    <!-- lightcase css -->
-    <link rel="stylesheet" href="assets/css/lightcase.css" />
-    <!-- swiper css -->
-    <link rel="stylesheet" href="assets/css/swiper.min.css" />
-    <!-- custom scss -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/other.css" />
-    <link rel="stylesheet" href="assets/css/order.css" />
-    <link
-      href="https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.boxicons.com/3.0.3/fonts/brands/boxicons-brands.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Paystack -->
-    <script src="https://js.paystack.co/v1/inline.js"></script>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  <!-- animate scss -->
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <!-- bootstarp css -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!-- icofont -->
+  <link rel="stylesheet" href="assets/css/icofont.min.css" />
+  <link rel="stylesheet" href="assets/css/all.min.css" />
+  <!-- lightcase css -->
+  <link rel="stylesheet" href="assets/css/lightcase.css" />
+  <!-- swiper css -->
+  <link rel="stylesheet" href="assets/css/swiper.min.css" />
+  <!-- custom scss -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/other.css" />
+  <link rel="stylesheet" href="assets/css/order.css" />
+  <link href="https://cdn.boxicons.com/3.0.3/fonts/basic/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.boxicons.com/3.0.3/fonts/brands/boxicons-brands.min.css" rel="stylesheet" />
 
-    <!-- Email.js SDK -->
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init({
-          publicKey: "-WX6aDIktn3nAw81E",
-        });
-      })();
-    </script>
+  <!-- Paystack -->
+  <script src="https://js.paystack.co/v1/inline.js"></script>
 
-    <!-- Paystack -->
-    <script src="https://js.paystack.co/v1/inline.js"></script>
+  <!-- Email.js SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "-WX6aDIktn3nAw81E",
+      });
+    })();
+  </script>
 
-    <title>Order Food - Mawusi Restaurant</title>
-  </head>
+  <!-- Paystack -->
+  <script src="https://js.paystack.co/v1/inline.js"></script>
 
-  <body>
-    <!-- preloader start here -->
-    <div class="preloader">
-      <div class="preloader-inner">
-        <div class="preloader-icon">
-          <span></span>
-          <span></span>
-        </div>
+  <title>Order Food - Mawusi Restaurant</title>
+</head>
+
+<body>
+  <!-- preloader start here -->
+  <div class="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-icon">
+        <span></span>
+        <span></span>
       </div>
     </div>
-    <!-- preloader ending here -->
+  </div>
+  <!-- preloader ending here -->
 
-    <!-- Mobile Menu Start Here -->
-    <div class="mobile-menu">
-      <nav class="mobile-header">
-        <div class="header-logo">
-          <a href="index.html"
-            ><img src="assets/images/logo/logo.png" alt="logo"
-          /></a>
-        </div>
-        <div class="header-bar">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </nav>
-      <nav class="mobile-menu">
-        <div class="mobile-menu-area">
-          <div class="mobile-menu-area-inner">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="menu-card.html">Menu</a></li>
-              <li><a href="reserv.html">Reservation</a></li>
-<<<<<<< HEAD
-              <li><a href="reviews.html">Reviews</a></li>
-=======
-
->>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
-              <li><a href="contact-us.html">Contact</a></li>
-              <a href="order-food.html" class="food-btn style-2"
-                ><span>Order Now</span></a
-              >
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <!-- Mobile Menu Ending Here -->
-
-    <!-- desktop menu start here -->
-    <header class="header-section">
-      <div class="header-area">
-        <div class="header-top">
-          <div class="container-fluid">
-            <div class="top">
-              <ul class="left">
-                <li>
-                  <i class="far fa-clock"></i>
-                  Mon - Fri: 9: AM - 10:PM / Sat - Sun: 10AM - 11PM
-                </li>
-                <li>
-                  <i class="fas fa-map-marker-alt"></i>
-                  Agona Swedru, Central Region
-                </li>
-                <li>
-                  <i class="fas fa-headset"></i>
-                  info@mawusirestaurant.com
-                </li>
-              </ul>
-              <ul class="right">
-                <li>
-<<<<<<< HEAD
-                  <a
-                    href="https://www.facebook.com/p/Mawusi-FOOD-JOINT-Agona-Swedru-100067185902128"
-                    target="_blank"
-                    title="FaceBook"
-                    ><i class="fab fa-facebook"></i
-                  ></a>
-=======
-                  <a href="#"><i class="fab fa-facebook"></i></a>
->>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
-                </li>
-                <li>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="header-bottom">
-          <div class="container">
-            <div class="primary-menu">
-              <div class="logo">
-                <a href="index.html"
-                  ><img src="assets/images/logo/logo.png" alt="logo"
-                /></a>
-              </div>
-              <div class="main-area">
-                <div class="main-menu">
-                  <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="menu-card.html">Menu</a></li>
-                    <li><a href="reserv.html">Reservation</a></li>
-<<<<<<< HEAD
-                    <li><a href="reviews.html">Reviews</a></li>
-=======
-
->>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
-                    <li><a href="contact-us.html">Contact</a></li>
-                  </ul>
-                </div>
-              </div>
-              <a href="order-food.html" class="food-btn style-2"
-                ><span>Order Now</span></a
-              >
-            </div>
-          </div>
-        </div>
+  <!-- Mobile Menu Start Here -->
+  <div class="mobile-menu">
+    <nav class="mobile-header">
+      <div class="header-logo">
+        <a href="index.html"><img src="assets/images/logo/logo.png" alt="logo" /></a>
       </div>
-    </header>
-    <!-- desktop menu ending here -->
-
-    <!-- Page Header Section Start Here -->
-    <section class="page-header style-2">
-      <div class="container">
-        <div class="page-title text-center">
-          <h3>Prepare Your Dish</h3>
-          <ul class="breadcrumb">
+      <div class="header-bar">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <nav class="mobile-menu">
+      <div class="mobile-menu-area">
+        <div class="mobile-menu-area-inner">
+          <ul>
             <li><a href="index.html">Home</a></li>
-            <li>Order Food</li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu-card.html">Menu</a></li>
+            <li><a href="reserv.html">Reservation</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="contact-us.html">Contact</a></li>
+            <a href="order-food.html" class="food-btn style-2"><span>Order Now</span></a>
           </ul>
         </div>
       </div>
-    </section>
-    <!-- Page Header Section Ending Here -->
+    </nav>
+  </div>
+  <!-- Mobile Menu Ending Here -->
 
-    <!-- Food Selection Categories Start -->
-<<<<<<< HEAD
-    <section class="container-fluid food-selection mt-5">
-=======
+  <!-- desktop menu start here -->
+  <header class="header-section">
+    <div class="header-area">
+      <div class="header-top">
+        <div class="container-fluid">
+          <div class="top">
+            <ul class="left">
+              <li>
+                <i class="far fa-clock"></i>
+                Mon - Fri: 9: AM - 10:PM / Sat - Sun: 10AM - 11PM
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                Agona Swedru, Central Region
+              </li>
+              <li>
+                <i class="fas fa-headset"></i>
+                info@mawusirestaurant.com
+              </li>
+            </ul>
+            <ul class="right">
+              <li>
+                <a href="https://www.facebook.com/p/Mawusi-FOOD-JOINT-Agona-Swedru-100067185902128" target="_blank"
+                  title="FaceBook"><i class="fab fa-facebook"></i></a>
+
+                <a href="#"><i class="fab fa-facebook"></i></a>
+
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="container">
+          <div class="primary-menu">
+            <div class="logo">
+              <a href="index.html"><img src="assets/images/logo/logo.png" alt="logo" /></a>
+            </div>
+            <div class="main-area">
+              <div class="main-menu">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="menu-card.html">Menu</a></li>
+                  <li><a href="reserv.html">Reservation</a></li>
+                  <li><a href="reviews.html">Reviews</a></li>
+
+
+
+                  <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <a href="order-food.html" class="food-btn style-2"><span>Order Now</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- desktop menu ending here -->
+
+  <!-- Page Header Section Start Here -->
+  <section class="page-header style-2">
+    <div class="container">
+      <div class="page-title text-center">
+        <h3>Prepare Your Dish</h3>
+        <ul class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li>Order Food</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Page Header Section Ending Here -->
+
+  <!-- Food Selection Categories Start -->
+  <section class="container-fluid food-selection mt-5">
+
     <section class="container-fluid food-selection">
->>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
+
       <div class="container food-selection-row mx-auto">
         <form id="paymentForm" class="row orderForm">
           <div class="food-selection-col col-lg-5 col-md-12 pb-5 border">
@@ -211,12 +180,7 @@
 
             <div class="input-boxs my-4">
               <label for="full_name">Full Name</label>
-              <input
-                type="text"
-                name="fullname"
-                id="fullname"
-                class="input-fill"
-              />
+              <input type="text" name="fullname" id="fullname" class="input-fill" />
             </div>
 
             <div class="input-boxs my-4">
@@ -226,22 +190,13 @@
 
             <div class="input-boxs my-4">
               <label for="telephone">Telephone</label>
-              <input
-                type="phone"
-                name="telephone"
-                id="telephone"
-                class="input-fill"
-              />
+              <input type="phone" name="telephone" id="telephone" class="input-fill" />
             </div>
             <!-- Vendor Location -->
 
             <div class="input-boxs my-4">
               <label for="vendor-location">Vendor Location</label>
-              <select
-                name="vendor_location"
-                id="vendor_location"
-                class="input-fill"
-              >
+              <select name="vendor_location" id="vendor_location" class="input-fill">
                 <optgroup label="Agona Swedru (Central Town)">
                   <option value="swedru-central">
                     Agona Swedru (General Area)
@@ -285,13 +240,8 @@
 
             <div class="input-boxs my-4">
               <label for="message">Additional Notes</label>
-              <textarea
-                name="message"
-                class="txt-box"
-                id="message"
-                rows="10"
-                placeholder="Any Special Request Or Additional Instructions"
-              ></textarea>
+              <textarea name="message" class="txt-box" id="message" rows="10"
+                placeholder="Any Special Request Or Additional Instructions"></textarea>
               <style>
                 ::placeholder {
                   color: #c3c3c3;
@@ -304,12 +254,7 @@
             <h1 class="food-selection-col-title">Make Your Dish</h1>
             <div class="input-boxs my-4">
               <label for="main_dishes">Main Dishes</label>
-              <select
-                name="main_dishes"
-                id="main_dishes"
-                class="input-fill"
-                required
-              >
+              <select name="main_dishes" id="main_dishes" class="input-fill" required>
                 <option value="" disabled selected>Select Main Dish</option>
 
                 <optgroup label="Fufu Dishes">
@@ -461,9 +406,7 @@
                   <option value="Beans with Bread - GHS 30.00">
                     Beans with Bread - GHS 30.00
                   </option>
-                  <option
-                    value="Red Red (Beans with Fried Plantain) - GHS 40.00"
-                  >
+                  <option value="Red Red (Beans with Fried Plantain) - GHS 40.00">
                     Red Red (Beans with Fried Plantain) - GHS 40.00
                   </option>
                   <option value="Beans Stew with Yam - GHS 35.00">
@@ -829,13 +772,7 @@
 
             <div class="input-boxs my-4">
               <label for="Accompaniment">Accompaniment</label>
-              <select
-                name="Accompaniment"
-                id="Accompaniment"
-                title="Accompaniment"
-                class="input-fill"
-                required
-              >
+              <select name="Accompaniment" id="Accompaniment" title="Accompaniment" class="input-fill" required>
                 <option value="" disabled selected>Select Accompaniment</option>
                 <option value="Salad With Cream - GHS 12.00">
                   Salad With Cream - GHS 12.00
@@ -849,13 +786,7 @@
 
             <div class="input-boxs my-4">
               <label for="Drinks">Drinks</label>
-              <select
-                id="Drinks"
-                name="Drinks"
-                title="Drinks"
-                class="input-fill"
-                required
-              >
+              <select id="Drinks" name="Drinks" title="Drinks" class="input-fill" required>
                 <option value="" disabled selected>Select Drink</option>
 
                 <optgroup label="Water">
@@ -1091,13 +1022,7 @@
 
             <div class="input-boxs my-4">
               <label for="Packaging">Packaging</label>
-              <select
-                id="Packaging"
-                name="Packaging"
-                title="Packaging"
-                class="input-fill"
-                required
-              >
+              <select id="Packaging" name="Packaging" title="Packaging" class="input-fill" required>
                 <option value="" disabled selected>Select Packaging</option>
 
                 <optgroup label="Basic Packaging">
@@ -1257,13 +1182,7 @@
 
             <div class="input-boxs my-4">
               <label for="Delivery">Delivery Period</label>
-              <select
-                id="Delivery"
-                name="Delivery"
-                title="Delivery Period"
-                class="input-fill"
-                required
-              >
+              <select id="Delivery" name="Delivery" title="Delivery Period" class="input-fill" required>
                 <option value="" disabled selected>
                   Select Delivery Period
                 </option>
@@ -1376,20 +1295,13 @@
             </div>
 
             <!-- Place this div just before the closing </section> tag of your food-selection section -->
-            <div
-              class="input-boxs my-4"
-              id="total-cost-box"
-              style="text-align: center"
-            >
+            <div class="input-boxs my-4" id="total-cost-box" style="text-align: center">
               <h3>
                 Total Cost:
-<<<<<<< HEAD
                 <span id="total-cost" style="color: #fff">GHS 0.00</span>
-=======
-                <span id="total-cost" style="color: rgb(0, 119, 255)"
-                  >GHS 0.00</span
-                >
->>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
+
+                <span id="total-cost" style="color: rgb(0, 119, 255)">GHS 0.00</span>
+
               </h3>
 
               <script>
@@ -1477,16 +1389,8 @@
                 });
               </script>
             </div>
-            <button
-<<<<<<< HEAD
-              style="background: rgb(255, 27, 27); color: #fff"
-=======
-              style="background: rgb(0, 119, 255); color: #fff"
->>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
-              type="button"
-              id="pay-now-btn"
-              class="btn btn-lg mt-3"
-            >
+            <button style="background: rgb(255, 27, 27); color: #fff" style="background: rgb(0, 119, 255); color: #fff"
+              type="button" id="pay-now-btn" class="btn btn-lg mt-3">
               Pay Now
             </button>
             <input type="hidden" id="amount" name="Amount" value="0" />
@@ -1496,15 +1400,11 @@
     </section>
     <!-- Food Selection Categories End -->
     <!-- Chat Us On Whatsapp -->
-    <a
-      href="https://api.whatsapp.com/send?phone=233549175604&text=Hello%20Isaacski%20Restaurant"
-      class="whatsapp-chat"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href="https://api.whatsapp.com/send?phone=233549175604&text=Hello%20Isaacski%20Restaurant" class="whatsapp-chat"
+      target="_blank" rel="noopener noreferrer">
       <i class="fa fa-whatsapp" aria-hidden="true"></i>
     </a>
-    <!--===============================================================================================-->
+    <!--====-->
 
     <script>
       // Initialize EmailJS
@@ -1789,8 +1689,8 @@ Order Details:
           // Show success message
           alert(
             "🎉 Order submitted successfully and payment completed! Order ID: " +
-              orderId +
-              "\n\nWhatsApp notification will open next."
+            orderId +
+            "\n\nWhatsApp notification will open next."
           );
 
           // Reset form
@@ -1805,9 +1705,9 @@ Order Details:
           console.error("❌ Error during order processing:", error);
           alert(
             "Payment was successful but there was an issue processing your order. Please contact us with your Order ID: " +
-              orderId +
-              "\n\nError: " +
-              error.message
+            orderId +
+            "\n\nError: " +
+            error.message
           );
         }
       }
@@ -1868,10 +1768,7 @@ Order Details:
     <!-- link area ends -->
 
     <!-- footer area start -->
-    <footer
-      class="padding-tb"
-      style="background-image: url(assets/css/bg-image/footer-bg.jpg)"
-    >
+    <footer class="padding-tb" style="background-image: url(assets/css/bg-image/footer-bg.jpg)">
       <div class="container">
         <div class="footer-row">
           <div class="footer-col">
@@ -1886,22 +1783,16 @@ Order Details:
               <label>Follow Us:</label>
               <ul class="social-handles">
                 <li>
-                  <a href="#" target="_blank"
-                    ><i class="bxl bx-facebook"></i
-                  ></a>
+                  <a href="#" target="_blank"><i class="bxl bx-facebook"></i></a>
                 </li>
                 <li>
                   <a href="#" target="_blank"><i class="bxl bx-tiktok"></i></a>
                 </li>
                 <li>
-                  <a href="#" target="_blank"
-                    ><i class="bxl bx-instagram"></i
-                  ></a>
+                  <a href="#" target="_blank"><i class="bxl bx-instagram"></i></a>
                 </li>
                 <li>
-                  <a href="#" target="_blank"
-                    ><i class="bxl bx-whatsapp"></i
-                  ></a>
+                  <a href="#" target="_blank"><i class="bxl bx-whatsapp"></i></a>
                 </li>
               </ul>
             </div>
@@ -1952,9 +1843,7 @@ Order Details:
                 <p class="text-center">
                   &copy; 2025 Mawusi Restaurant. All Rights Reserved. Designed
                   by
-                  <a href="https://www.isaacskiwebdev.com/" target="_blank"
-                    >Isaacski Web Dev</a
-                  >
+                  <a href="https://www.isaacskiwebdev.com/" target="_blank">Isaacski Web Dev</a>
                 </p>
               </div>
             </div>
@@ -1985,5 +1874,6 @@ Order Details:
     <script src="assets/js/lightcase.js"></script>
     <script src="assets/js/jquery.countdown.min.js"></script>
     <script src="assets/js/functions.js"></script>
-  </body>
+</body>
+
 </html>
