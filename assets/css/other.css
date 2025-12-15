@@ -41,7 +41,11 @@ label {
   font-size: 20px;
 }
 .social-handles li a:hover {
+<<<<<<< HEAD
   background-color: rgb(255, 27, 27);
+=======
+  background-color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   color: #fff;
 }
 
@@ -57,6 +61,7 @@ label {
 }
 
 .useful-links .box a:hover {
+<<<<<<< HEAD
   color: rgb(255, 27, 27);
   letter-spacing: 1px;
 }
@@ -65,6 +70,12 @@ label {
   height: auto;
 }
 
+=======
+  color: rgb(1, 48, 177);
+  letter-spacing: 1px;
+}
+
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
 .header-logo {
   display: flex;
   align-items: center;
@@ -72,7 +83,11 @@ label {
 }
 
 .header-logo p a {
+<<<<<<< HEAD
   color: rgb(255, 27, 27);
+=======
+  color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
 }
 
 .header-logo p a:hover {
@@ -114,7 +129,11 @@ label {
   width: 60px;
   height: 60px;
   border-radius: 8px;
+<<<<<<< HEAD
   border: 1px solid rgb(255, 27, 27);
+=======
+  border: 1px solid rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,11 +142,19 @@ label {
 
 .contact-info-item .icon i {
   font-size: 33px;
+<<<<<<< HEAD
   color: rgb(255, 27, 27);
 }
 
 .contact-info-item:hover .icon {
   background-color: rgb(255, 27, 27);
+=======
+  color: rgb(1, 48, 177);
+}
+
+.contact-info-item:hover .icon {
+  background-color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
 }
 
 .contact-info-item:hover .icon i {
@@ -136,7 +163,11 @@ label {
 
 .contact-info-item .details a {
   font-size: 18px;
+<<<<<<< HEAD
   color: rgb(255, 27, 27);
+=======
+  color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
 }
 
 .contact-info-item .details a:hover {
@@ -279,7 +310,11 @@ label {
     display: block !important;
     font-size: 15px;
     font-weight: 600;
+<<<<<<< HEAD
     color: rgb(255, 27, 27);
+=======
+    color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
     margin-bottom: 10px;
     display: inline-block;
   }
@@ -501,6 +536,7 @@ button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
 }
+<<<<<<< HEAD
 
 /* Client Review */
 .testimonials {
@@ -572,3 +608,5 @@ button:disabled {
     width: 80px;
   }
 }
+=======
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb

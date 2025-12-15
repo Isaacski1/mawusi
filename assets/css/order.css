@@ -6,7 +6,11 @@
   background-position: center;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+<<<<<<< HEAD
     url("../images/header/bg2.jpg");
+=======
+    url("../images/product/bg/bg.jpg");
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
 }
 
 .food-selection-col {
@@ -15,7 +19,11 @@
 .food-selection-col-title {
   font-size: 30px;
   font-weight: 500;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: #efefef;
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   text-align: center;
 }
 
@@ -27,7 +35,11 @@
 .input-boxs label {
   font-size: 20px;
   font-weight: 500;
+<<<<<<< HEAD
   color: #fff;
+=======
+  color: #ddd;
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
 }
 
 .input-boxs .input-fill {
@@ -108,14 +120,23 @@
 
 /* On focus, highlight the select */
 #main_dishes.input-fill:focus {
+<<<<<<< HEAD
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgba(255, 27, 27, 0.596);
+=======
+  border-color: rgb(1, 48, 177);
+  box-shadow: 0 0 0 2px rgba(1, 48, 177, 0.596);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   outline: none;
 }
 
 /* Style the optgroup label */
 #main_dishes optgroup {
+<<<<<<< HEAD
   color: rgb(255, 27, 27);
+=======
+  color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   font-weight: bold;
   font-size: 1rem;
   background: #fff;
@@ -158,14 +179,23 @@
 
 /* On focus, highlight the select */
 #protein.input-fill:focus {
+<<<<<<< HEAD
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
+=======
+  border-color: rgb(1, 48, 177);
+  box-shadow: 0 0 0 2px rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   outline: none;
 }
 
 /* Style the optgroup label */
 #protein optgroup {
+<<<<<<< HEAD
   color: rgb(255, 27, 27);
+=======
+  color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   font-weight: bold;
   font-size: 1rem;
   background: #fff;
@@ -208,14 +238,23 @@
 
 /* On focus, highlight the select */
 #req-Protein2.input-fill:focus {
+<<<<<<< HEAD
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
+=======
+  border-color: rgb(1, 48, 177);
+  box-shadow: 0 0 0 2px rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   outline: none;
 }
 
 /* Style the optgroup label */
 optgroup {
+<<<<<<< HEAD
   color: rgb(255, 27, 27);
+=======
+  color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   font-weight: bold;
   font-size: 1rem;
   background: #fff;
@@ -258,8 +297,13 @@ option {
 
 /* On focus, highlight the select */
 #req-Accompaniment.input-fill:focus {
+<<<<<<< HEAD
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
+=======
+  border-color: rgb(1, 48, 177);
+  box-shadow: 0 0 0 2px rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   outline: none;
 }
 
@@ -311,15 +355,24 @@ option {
 #req-Protein2.input-fill:focus,
 #req-Accompaniment.input-fill:focus,
 #req-Drinks.input-fill:focus {
+<<<<<<< HEAD
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
+=======
+  border-color: rgb(1, 48, 177);
+  box-shadow: 0 0 0 2px rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   outline: none;
   background-color: rgba(0, 0, 0, 0.35);
 }
 
 /* Style the optgroup label for all selects */
 optgroup {
+<<<<<<< HEAD
   color: rgb(255, 27, 27);
+=======
+  color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   font-weight: bold;
   font-size: 1rem;
   background: #fff;
@@ -379,7 +432,11 @@ optgroup {
 #req-Accompaniment.input-fill:hover,
 #req-Drinks.input-fill:hover,
 #req-Packaging.input-fill:hover {
+<<<<<<< HEAD
   border-color: rgb(255, 27, 27);
+=======
+  border-color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   background-color: rgba(0, 0, 0, 0.32);
   color: #fff;
 }
@@ -411,8 +468,13 @@ optgroup {
 }
 
 .input-boxs input.input-fill:focus {
+<<<<<<< HEAD
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
+=======
+  border-color: rgb(1, 48, 177);
+  box-shadow: 0 0 0 2px rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   outline: none;
   background: rgba(0, 0, 0, 0.28);
 }
@@ -442,7 +504,11 @@ optgroup {
 
 /* Make optgroup labels stand out even more */
 optgroup {
+<<<<<<< HEAD
   color: rgb(255, 27, 27);
+=======
+  color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   font-weight: bold;
   font-size: 1.05rem;
   background: #fff;
@@ -489,14 +555,23 @@ optgroup {
 }
 
 #req-Delivery.input-fill:focus {
+<<<<<<< HEAD
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
+=======
+  border-color: rgb(1, 48, 177);
+  box-shadow: 0 0 0 2px rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   outline: none;
   background-color: rgba(0, 0, 0, 0.35);
 }
 
 #req-Delivery.input-fill:hover {
+<<<<<<< HEAD
   border-color: rgb(255, 27, 27);
+=======
+  border-color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   background-color: rgba(0, 0, 0, 0.32);
   color: #fff;
 }
@@ -524,7 +599,11 @@ optgroup {
 #total-cost-box {
   background: rgba(135, 116, 255, 0.08);
   border-radius: 12px;
+<<<<<<< HEAD
   box-shadow: 0 0px 5px rgb(255, 27, 27);
+=======
+  box-shadow: 0 0px 5px rgba(1, 48, 177, 0.596);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   padding: 24px 0 18px 0;
   margin-top: 32px;
   margin-bottom: 24px;
@@ -540,7 +619,11 @@ optgroup {
 }
 
 #total-cost-box #total-cost {
+<<<<<<< HEAD
   color: rgb(255, 27, 27);
+=======
+  color: rgb(1, 48, 177);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
   font-size: 2.2rem;
   font-weight: 800;
   margin-left: 8px;
@@ -550,8 +633,13 @@ optgroup {
 
 /* Add a subtle hover effect */
 #total-cost-box:hover {
+<<<<<<< HEAD
   background: rgb(255, 59, 59);
   box-shadow: 0 4px 18px rgb(255, 27, 27);
+=======
+  background: rgba(1, 48, 177, 0.596);
+  box-shadow: 0 4px 18px rgba(1, 48, 177, 0.596);
+>>>>>>> 3cd0e8e6b59dccdd0b5bfb7fcbca7a5cffa6f8eb
 }
 
 /* Responsive for mobile */
