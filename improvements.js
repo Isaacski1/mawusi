@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   `;
   whatsappButton.style.cssText = `
     position: fixed;
-    bottom: 100px;
+    bottom: 80px;
     right: 20px;
     width: 50px;
     height: 50px;
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
       color: #362725;
       font-size: 12px;
     `;
-    btn.innerHTML = `<i style="font-size: 20px; margin-bottom: 4px;" class="${action.icon}"></i>${action.label}`;
+    btn.innerHTML = `<i style="font-size: 20px; margin-bottom: 4px; color: red;" class="${action.icon}"></i>${action.label}`;
     mobileFooterNav.appendChild(btn);
   });
   
