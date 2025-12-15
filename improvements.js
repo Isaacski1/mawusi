@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
   `;
   whatsappButton.style.cssText = `
     position: fixed;
-    bottom: 80px;
+    bottom: 100px;
     right: 20px;
     width: 50px;
     height: 50px;
@@ -218,7 +218,7 @@ function improveFormValidation() {
           this.style.backgroundColor = '#fff5f5';
         } else {
           this.style.borderColor = '#28a745';
-          this.style.backgroundColor = '#f5fff5';
+        //   this.style.backgroundColor = '#f5fff5';
         }
       });
 
