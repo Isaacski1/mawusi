@@ -51,9 +51,12 @@ class OrderSystem {
         throw new Error("Please fill in all required fields");
       }
 
-      // Show success message (no Firebase saving)
+      // Send email confirmation
+      await this.sendOrderConfirmationEmail(orderData);
+
+      // Show success message
       this.showMessage(
-        `✅ Order submitted successfully! We'll contact you shortly.`,
+        `✅ Order submitted successfully! Confirmation email sent. We'll contact you shortly.`,
         "success"
       );
 
@@ -148,6 +151,84 @@ class OrderSystem {
 
     // Create new message
     const messageDiv = document.createElement("div");
+    messageDiv.id = "orderMessage";
+    messageDiv.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            z-index: 10000;
+            min-width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        `;
+
+    messageDiv.textContent = message;
+
+    if (type === "success") {
+      messageDiv.style.backgroundColor = "#d4edda";
+      messageDiv.style.color = "#155724";
+      messageDiv.style.border = "1px solid #c3e6cb";
+    } else {
+      messageDiv.style.backgroundColor = "#f8d7da";
+      messageDiv.style.color = "#721c24";
+      messageDiv.style.border = "1px solid #f5c6cb";
+    }
+
+    document.body.appendChild(messageDiv);
+
+    // Auto hide after 5 seconds
+    setTimeout(() => {
+      if (messageDiv.parentNode) {
+        messageDiv.parentNode.removeChild(messageDiv);
+      }
+    }, 5000);
+  }
+
+  async sendOrderConfirmationEmail(orderData) {
+    try {
+      // Check if EmailJS is loaded
+      if (typeof emailjs === "undefined") {
+        console.warn("EmailJS not loaded, skipping email notification");
+        return;
+      }
+
+      // Prepare template parameters
+      const templateParams = {
+        customerName: orderData.customerName,
+        customerEmail: orderData.customerEmail,
+        customerPhone: orderData.customerPhone,
+        customerAddress: orderData.customerAddress || "Not provided",
+        orderId: `ORD-${Date.now()}`,
+        orderItems: orderData.items
+          .map((item) => `${item.name} x${item.quantity} - ¢${item.price}`)
+          .join("\n"),
+        subtotal: `¢${orderData.subtotal.toFixed(2)}`,
+        tax: `¢${orderData.tax.toFixed(2)}`,
+        total: `¢${orderData.total.toFixed(2)}`,
+        paymentMethod: orderData.paymentMethod,
+        notes: orderData.notes || "No special requests",
+        timestamp: new Date().toLocaleString(),
+      };
+
+      console.log("📧 Sending order confirmation email:", templateParams);
+
+      // Send email via EmailJS
+      const response = await emailjs.send(
+        "service_uvwuw6g",
+        "template_phvfhln",
+        templateParams
+      );
+
+      console.log("✅ Email sent successfully:", response);
+      return response;
+    } catch (error) {
+      console.error("❌ Error sending email:", error);
+      // Don't throw - let the order still go through even if email fails
+    }
+  }
     messageDiv.id = "orderMessage";
     messageDiv.style.cssText = `
             position: fixed;
