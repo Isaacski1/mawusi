@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', function() {
     position: fixed;
     bottom: 80px;
     right: 20px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background: #25D366;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     z-index: 999;
@@ -65,8 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const actions = [
     { icon: 'fas fa-phone', label: 'Call', href: 'tel:+233244046745' },
     { icon: 'fas fa-shopping-cart', label: 'Order', href: 'order-food.html' },
-    { icon: 'fas fa-utensils', label: 'Menu', href: 'menu-card.html' },
-    { icon: 'fas fa-comments', label: 'Chat', href: 'https://wa.me/233549175604' }
+    { icon: 'fas fa-utensils', label: 'Menu', href: 'menu-card.html' }
   ];
   
   actions.forEach(action => {
@@ -290,7 +289,6 @@ function trackPerformance() {
 // ==================== INITIALIZATION ====================
 document.addEventListener('DOMContentLoaded', function() {
   addHeroCTA();
-  addTestimonials();
   improveFormValidation();
   enableLazyLoading();
   trackPerformance();

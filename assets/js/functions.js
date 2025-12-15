@@ -392,10 +392,5 @@
       }
     });
 
-  // WhatsApp Chat Bot
-  $(document).ready(function () {
-    $("body").append(
-      '<a href="https://wa.me/233123456789?text=Hello%20Mawusi%20Restaurant" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>'
-    );
-  });
+  // WhatsApp Chat Bot - removed (using improvements.js floating button instead)
 })(jQuery);
