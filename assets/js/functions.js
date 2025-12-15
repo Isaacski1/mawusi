@@ -10,7 +10,7 @@
   // mobile menu responsive
   $(document).on("click", ".header-bar", function () {
     $(".header-bar").toggleClass("close");
-    $(".mobile-menu").toggleClass("open");
+    $(".mobile-menu .mobile-menu").toggleClass("open");
   });
 
   // Header Section Menu Part
@@ -20,7 +20,7 @@
 
   //mobile drodown menu display
   $(".menu-item-has-children>a").on("click", function (e) {
-    event.preventDefault();
+    e.preventDefault();
   });
   $(".mobile-menu-area ul li a, .shop-menu li a").on("click", function (e) {
     var element = $(this).parent("li");
