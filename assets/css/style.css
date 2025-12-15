@@ -3686,12 +3686,13 @@ footer .news_letter .contact-search form.searchForm input.searchBtn {
 .banner-area .banner-content .banner-btn-group {
   justify-content: center;
   margin-top: 35px;
+  row-gap: 15px;
 }
 .banner-area .banner-content .banner-btn-group a {
   margin-right: 25px;
 }
 .banner-area .banner-content .banner-btn-group a:last-child {
-  margin-right: 0;
+  /* margin-right: 0; */
 }
 @media (max-width: 340px) {
   .banner-area .banner-content .banner-btn-group a {

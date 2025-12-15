@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 27px;
     color: white;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     z-index: 999;
@@ -109,7 +109,7 @@ function addHeroCTA() {
     // Add urgency to existing CTA
     const existingCTA = heroBanner.querySelector('.food-btn');
     if (existingCTA) {
-      existingCTA.innerHTML = '<span>🎉 Order Now - 30 Min Delivery! 🎉</span>';
+      existingCTA.innerHTML = '<span>Order Now - 30 Min Delivery!</span>';
       existingCTA.style.animation = 'pulse 2s infinite';
     }
   }
