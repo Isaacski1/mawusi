@@ -77,7 +77,7 @@
             <li><a href="about.html">About Us</a></li>
             <li><a href="menu-card.html">Menu</a></li>
             <li><a href="reserv.html">Reservation</a></li>
-            <li><a href="reviews.html">Reviews</a></li>
+
             <li><a href="contact-us.html">Contact</a></li>
             <a href="order-food.html" class="food-btn style-2"><span>Order Now</span></a>
           </ul>
@@ -104,16 +104,12 @@
               </li>
               <li>
                 <i class="fas fa-headset"></i>
-                info@mawusirestaurant.com
+                info@freshersstarrestaurant.com
               </li>
             </ul>
             <ul class="right">
               <li>
-                <a href="https://www.facebook.com/p/Mawusi-FOOD-JOINT-Agona-Swedru-100067185902128" target="_blank"
-                  title="FaceBook"><i class="fab fa-facebook"></i></a>
-
                 <a href="#"><i class="fab fa-facebook"></i></a>
-
               </li>
               <li>
                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -138,9 +134,6 @@
                   <li><a href="about.html">About Us</a></li>
                   <li><a href="menu-card.html">Menu</a></li>
                   <li><a href="reserv.html">Reservation</a></li>
-                  <li><a href="reviews.html">Reviews</a></li>
-
-
 
                   <li><a href="contact-us.html">Contact</a></li>
                 </ul>
@@ -170,1496 +163,1491 @@
 
   <!-- Food Selection Categories Start -->
   <section class="container-fluid food-selection mt-5">
+    <div class="container food-selection-row mx-auto">
+      <form id="paymentForm" class="row orderForm">
+        <div class="food-selection-col col-lg-5 col-md-12 pb-5 border">
+          <h1 class="food-selection-col-title">Fill Your Details</h1>
 
-    <section class="container-fluid food-selection">
-
-      <div class="container food-selection-row mx-auto">
-        <form id="paymentForm" class="row orderForm">
-          <div class="food-selection-col col-lg-5 col-md-12 pb-5 border">
-            <h1 class="food-selection-col-title">Fill Your Details</h1>
-
-            <div class="input-boxs my-4">
-              <label for="full_name">Full Name</label>
-              <input type="text" name="fullname" id="fullname" class="input-fill" />
-            </div>
-
-            <div class="input-boxs my-4">
-              <label for="email">Email Address</label>
-              <input type="email" name="email" class="input-fill" />
-            </div>
-
-            <div class="input-boxs my-4">
-              <label for="telephone">Telephone</label>
-              <input type="phone" name="telephone" id="telephone" class="input-fill" />
-            </div>
-            <!-- Vendor Location -->
-
-            <div class="input-boxs my-4">
-              <label for="vendor-location">Vendor Location</label>
-              <select name="vendor_location" id="vendor_location" class="input-fill">
-                <optgroup label="Agona Swedru (Central Town)">
-                  <option value="swedru-central">
-                    Agona Swedru (General Area)
-                  </option>
-                  <option value="central-market">
-                    Central Market (Mandela Market)
-                  </option>
-                  <option value="swedru-zongo">Swedru Zongo</option>
-                  <option value="akwaa-mor">Akwakwaa-Mor</option>
-                  <option value="mahalla">Mahalla</option>
-                  <option value="pipe-tank">Pipe Tank</option>
-                  <option value="chapel-square">Chapel Square</option>
-                  <option value="abodom-road">Abodom Road</option>
-                  <option value="agip">Agip</option>
-                </optgroup>
-
-                <optgroup label="Other Major Towns/Settlements">
-                  <option value="nyakrom">Nyakrom</option>
-                  <option value="abodum">Abodom</option>
-                  <option value="bobikuma">Bobikuma</option>
-                  <option value="kwaman">Kwaman</option>
-                  <option value="nkum">Nkum</option>
-                  <option value="wawase">Wawase</option>
-                  <option value="old-sawnmills">Old Sawnmills</option>
-                  <option value="new-sawnmills">New Sawnmills</option>
-                  <option value="new-kwansakrom">New Kwansakrom</option>
-                  <option value="old-kwansakrom">Old Kwansakrom</option>
-                  <option value="otsenkorang">Otsenkorang</option>
-                  <option value="adukori">Adukori</option>
-                  <option value="oteprow">Oteprow</option>
-                  <option value="ahomadonko">Ahomadonko</option>
-                  <option value="kukurantumi">Kukurantumi</option>
-                  <option value="bibianiha">Bibianiha</option>
-                  <option value="asafo">Asafo</option>
-                  <option value="duakwa">Duakwa</option>
-                  <option value="kwanyako">Kwanyako</option>
-                  <option value="mankrong">Mankrong</option>
-                </optgroup>
-              </select>
-            </div>
-
-            <div class="input-boxs my-4">
-              <label for="message">Additional Notes</label>
-              <textarea name="message" class="txt-box" id="message" rows="10"
-                placeholder="Any Special Request Or Additional Instructions"></textarea>
-              <style>
-                ::placeholder {
-                  color: #c3c3c3;
-                  opacity: 1;
-                }
-              </style>
-            </div>
+          <div class="input-boxs my-4">
+            <label for="full_name">Full Name</label>
+            <input type="text" name="fullname" id="fullname" class="input-fill" />
           </div>
-          <div class="food-selection-col col-lg-7 col-md-12 border">
-            <h1 class="food-selection-col-title">Make Your Dish</h1>
-            <div class="input-boxs my-4">
-              <label for="main_dishes">Main Dishes</label>
-              <select name="main_dishes" id="main_dishes" class="input-fill" required>
-                <option value="" disabled selected>Select Main Dish</option>
 
-                <optgroup label="Fufu Dishes">
-                  <option value="Fufu with Light Soup - GHS 35.00">
-                    Fufu with Light Soup - GHS 35.00
-                  </option>
-                  <option value="Fufu with Palm Nut Soup - GHS 40.00">
-                    Fufu with Palm Nut Soup - GHS 40.00
-                  </option>
-                  <option value="Fufu with Groundnut Soup - GHS 45.00">
-                    Fufu with Groundnut Soup - GHS 45.00
-                  </option>
-                  <option value="Fufu with Ayoyo Soup - GHS 35.00">
-                    Fufu with Ayoyo Soup - GHS 35.00
-                  </option>
-                </optgroup>
-                <optgroup label="Banku Dishes">
-                  <option value="Banku with Okro Soup - GHS 30.00">
-                    Banku with Okro Soup - GHS 30.00
-                  </option>
-                  <option value="Banku with Groundnut Soup - GHS 35.00">
-                    Banku with Groundnut Soup - GHS 35.00
-                  </option>
-                  <option value="Banku with Palm Nut Soup - GHS 35.00">
-                    Banku with Palm Nut Soup - GHS 35.00
-                  </option>
-                  <option value="Banku with Light Soup - GHS 30.00">
-                    Banku with Light Soup - GHS 30.00
-                  </option>
-                  <option value="Banku with Pepper Sauce - GHS 25.00">
-                    Banku with Pepper Sauce - GHS 25.00
-                  </option>
-                  <option value="Banku with Grilled Tilapia - GHS 50.00">
-                    Banku with Grilled Tilapia - GHS 50.00
-                  </option>
-                </optgroup>
+          <div class="input-boxs my-4">
+            <label for="email">Email Address</label>
+            <input type="email" name="email" class="input-fill" />
+          </div>
 
-                <optgroup label="Rice Dishes">
-                  <option value="Jollof Rice - GHS 45.00">
-                    Jollof Rice - GHS 45.00
-                  </option>
-                  <option value="Fried Rice - GHS 50.00">
-                    Fried Rice - GHS 50.00
-                  </option>
-                  <option value="Waakye - GHS 35.00">Waakye - GHS 35.00</option>
-                  <option value="Plain Rice with Stew - GHS 30.00">
-                    Plain Rice with Stew - GHS 30.00
-                  </option>
-                  <option value="Angwa Mo (Oil Rice) - GHS 40.00">
-                    Angwa Mo (Oil Rice) - GHS 40.00
-                  </option>
-                  <option value="Omo Tuo (Rice Balls) - GHS 35.00">
-                    Omo Tuo (Rice Balls) - GHS 35.00
-                  </option>
-                  <option value="Concon - GHS 35.00">Concon - GHS 35.00</option>
-                </optgroup>
+          <div class="input-boxs my-4">
+            <label for="telephone">Telephone</label>
+            <input type="phone" name="telephone" id="telephone" class="input-fill" />
+          </div>
+          <!-- Vendor Location -->
 
-                <optgroup label="Kenkey & Akple">
-                  <option value="Kenkey (Ga) with Fried Fish - GHS 40.00">
-                    Kenkey (Ga) with Fried Fish - GHS 40.00
-                  </option>
-                  <option value="Kenkey (Fante) with Grilled Fish - GHS 45.00">
-                    Kenkey (Fante) with Grilled Fish - GHS 45.00
-                  </option>
-                  <option value="Akple with Okro Soup - GHS 35.00">
-                    Akple with Okro Soup - GHS 35.00
-                  </option>
-                  <option value="Akple with Groundnut Soup - GHS 40.00">
-                    Akple with Groundnut Soup - GHS 40.00
-                  </option>
-                  <option value="Kenkey with Shito & Sardines - GHS 35.00">
-                    Kenkey with Shito & Sardines - GHS 35.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Tuo Zaafi & Swallows">
-                  <option value="Tuo Zaafi with Ayoyo Soup - GHS 30.00">
-                    Tuo Zaafi with Ayoyo Soup - GHS 30.00
-                  </option>
-                  <option value="Tuo Zaafi with Nkatenkwan - GHS 40.00">
-                    Tuo Zaafi with Nkatenkwan - GHS 40.00
-                  </option>
-                  <option value="Kokonte with Groundnut Soup - GHS 25.00">
-                    Kokonte with Groundnut Soup - GHS 25.00
-                  </option>
-                  <option value="Kokonte with Light Soup - GHS 25.00">
-                    Kokonte with Light Soup - GHS 25.00
-                  </option>
-                  <option value="Akonfem with Palm Nut Soup - GHS 35.00">
-                    Akonfem with Palm Nut Soup - GHS 35.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Yam & Plantain Dishes">
-                  <option value="Boiled Yam with Kontomire Stew - GHS 35.00">
-                    Boiled Yam with Kontomire Stew - GHS 35.00
-                  </option>
-                  <option value="Boiled Yam with Garden Egg Stew - GHS 30.00">
-                    Boiled Yam with Garden Egg Stew - GHS 30.00
-                  </option>
-                  <option value="Fried Yam with Stew - GHS 40.00">
-                    Fried Yam with Stew - GHS 40.00
-                  </option>
-                  <option value="Fried Plantain with Beans - GHS 35.00">
-                    Fried Plantain with Beans - GHS 35.00
-                  </option>
-                  <option value="Boiled Plantain with Kontomire - GHS 30.00">
-                    Boiled Plantain with Kontomire - GHS 30.00
-                  </option>
-                  <option value="Plantain with Garden Egg Stew - GHS 25.00">
-                    Plantain with Garden Egg Stew - GHS 25.00
-                  </option>
-                  <option value="Yam Chips with Chicken - GHS 45.00">
-                    Yam Chips with Chicken - GHS 45.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Stews & Sauces">
-                  <option value="Kontomire Stew with Boiled Eggs - GHS 35.00">
-                    Kontomire Stew with Boiled Eggs - GHS 35.00
-                  </option>
-                  <option value="Garden Egg Stew - GHS 30.00">
-                    Garden Egg Stew - GHS 30.00
-                  </option>
-                  <option value="Palava Sauce - GHS 35.00">
-                    Palava Sauce - GHS 35.00
-                  </option>
-                  <option value="Light Soup Only - GHS 25.00">
-                    Light Soup Only - GHS 25.00
-                  </option>
-                  <option value="Groundnut Soup Only - GHS 30.00">
-                    Groundnut Soup Only - GHS 30.00
-                  </option>
-                  <option value="Palm Nut Soup Only - GHS 30.00">
-                    Palm Nut Soup Only - GHS 30.00
-                  </option>
-                  <option value="Okro Soup Only - GHS 25.00">
-                    Okro Soup Only - GHS 25.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Beans & Legumes">
-                  <option value="Beans with Fried Plantain - GHS 35.00">
-                    Beans with Fried Plantain - GHS 35.00
-                  </option>
-                  <option value="Beans with Gari - GHS 25.00">
-                    Beans with Gari - GHS 25.00
-                  </option>
-                  <option value="Beans with Bread - GHS 30.00">
-                    Beans with Bread - GHS 30.00
-                  </option>
-                  <option value="Red Red (Beans with Fried Plantain) - GHS 40.00">
-                    Red Red (Beans with Fried Plantain) - GHS 40.00
-                  </option>
-                  <option value="Beans Stew with Yam - GHS 35.00">
-                    Beans Stew with Yam - GHS 35.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Breakfast Specials">
-                  <option value="Hausa Koko with Koose - GHS 25.00">
-                    Hausa Koko with Koose - GHS 25.00
-                  </option>
-                  <option value="Rice Water (Omu) with Bread - GHS 20.00">
-                    Rice Water (Omu) with Bread - GHS 20.00
-                  </option>
-                  <option value="Tom Brown with Milk - GHS 15.00">
-                    Tom Brown with Milk - GHS 15.00
-                  </option>
-                  <option value="Boiled Eggs with Bread - GHS 20.00">
-                    Boiled Eggs with Bread - GHS 20.00
-                  </option>
-                  <option value="Tea/Coffee with Bread - GHS 18.00">
-                    Tea/Coffee with Bread - GHS 18.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Snacks & Sides">
-                  <option value="Kebab (2 sticks) - GHS 25.00">
-                    Kebab (2 sticks) - GHS 25.00
-                  </option>
-                  <option value="Samosa (3 pieces) - GHS 15.00">
-                    Samosa (3 pieces) - GHS 15.00
-                  </option>
-                  <option value="Spring Rolls (4 pieces) - GHS 20.00">
-                    Spring Rolls (4 pieces) - GHS 20.00
-                  </option>
-                  <option value="Sausage Rolls (3 pieces) - GHS 18.00">
-                    Sausage Rolls (3 pieces) - GHS 18.00
-                  </option>
-                  <option value="Plantain Chips - GHS 12.00">
-                    Plantain Chips - GHS 12.00
-                  </option>
-                  <option value="Yam Balls (6 pieces) - GHS 20.00">
-                    Yam Balls (6 pieces) - GHS 20.00
-                  </option>
-                </optgroup>
-              </select>
-            </div>
-
-            <div class="input-boxs my-4">
-              <label for="protein">Protein</label>
-              <select name="protein" id="protein" class="input-fill" required>
-                <option value="" disabled selected>Select Protein</option>
-
-                <optgroup label="Fish">
-                  <option value="Tilapia (Whole) - GHS 25.00">
-                    Tilapia (Whole) - GHS 25.00
-                  </option>
-                  <option value="Red Fish (Whole) - GHS 15.00">
-                    Red Fish (Whole) - GHS 15.00
-                  </option>
-                  <option value="Salmon Steak - GHS 35.00">
-                    Salmon Steak - GHS 35.00
-                  </option>
-                  <option value="Mackerel (Tuna) - GHS 12.00">
-                    Mackerel (Tuna) - GHS 12.00
-                  </option>
-                  <option value="Herring (Keta School Boys) - GHS 10.00">
-                    Herring (Keta School Boys) - GHS 10.00
-                  </option>
-                  <option value="Sardines - GHS 8.00">
-                    Sardines - GHS 8.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Regular Meat">
-                  <option value="Beef (Cow Meat) - GHS 15.00">
-                    Beef (Cow Meat) - GHS 15.00
-                  </option>
-                  <option value="Goat Meat - GHS 18.00">
-                    Goat Meat - GHS 18.00
-                  </option>
-                  <option value="Lamb (Sheep Meat) - GHS 20.00">
-                    Lamb (Sheep Meat) - GHS 20.00
-                  </option>
-                  <option value="Chicken (Local) - GHS 12.00">
-                    Chicken (Local) - GHS 12.00
-                  </option>
-                  <option value="Chicken (Broiler) - GHS 10.00">
-                    Chicken (Broiler) - GHS 10.00
-                  </option>
-                  <option value="Turkey - GHS 25.00">Turkey - GHS 25.00</option>
-                  <option value="Duck - GHS 22.00">Duck - GHS 22.00</option>
-                </optgroup>
-
-                <optgroup label="Bush Meat (Nkwanom)">
-                  <option value="Grasscutter (Akrantie) - GHS 35.00">
-                    Grasscutter (Akrantie) - GHS 35.00
-                  </option>
-                  <option value="Giant Rat (Kusie) - GHS 30.00">
-                    Giant Rat (Kusie) - GHS 30.00
-                  </option>
-                  <option value="Antelope (Adowa) - GHS 45.00">
-                    Antelope (Adowa) - GHS 45.00
-                  </option>
-                  <option value="Deer - GHS 40.00">Deer - GHS 40.00</option>
-                  <option value="Bush Pig - GHS 28.00">
-                    Bush Pig - GHS 28.00
-                  </option>
-                  <option value="Rabbit - GHS 25.00">Rabbit - GHS 25.00</option>
-                </optgroup>
-
-                <optgroup label="Seafood">
-                  <option value="Prawns (Large) - GHS 45.00">
-                    Prawns (Large) - GHS 45.00
-                  </option>
-                  <option value="Shrimps (Small) - GHS 30.00">
-                    Shrimps (Small) - GHS 30.00
-                  </option>
-                  <option value="Crab (Large) - GHS 15.00">
-                    Crab (Large) - GHS 15.00
-                  </option>
-                  <option value="Lobster - GHS 60.00">
-                    Lobster - GHS 60.00
-                  </option>
-                  <option value="Octopus - GHS 35.00">
-                    Octopus - GHS 35.00
-                  </option>
-                  <option value="Squid - GHS 28.00">Squid - GHS 28.00</option>
-                  <option value="Mussels - GHS 20.00">
-                    Mussels - GHS 20.00
-                  </option>
-                  <option value="Oysters - GHS 25.00">
-                    Oysters - GHS 25.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Ghanaian Specialties">
-                  <option value="Snail (Large) - GHS 25.00">
-                    Snail (Large) - GHS 25.00
-                  </option>
-                  <option value="Snail (Medium) - GHS 18.00">
-                    Snail (Medium) - GHS 18.00
-                  </option>
-                  <option value="Wele (Cow Skin) - GHS 8.00">
-                    Wele (Cow Skin) - GHS 8.00
-                  </option>
-                  <option value="Kɔkɔɔte (Turkey Berry) - GHS 5.00">
-                    Kɔkɔɔte (Turkey Berry) - GHS 5.00
-                  </option>
-                  <option value="Garden Egg Stew Base - GHS 6.00">
-                    Garden Egg Stew Base - GHS 6.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Organ Meals">
-                  <option value="Liver (Beef) - GHS 12.00">
-                    Liver (Beef) - GHS 12.00
-                  </option>
-                  <option value="Kidney (Beef) - GHS 10.00">
-                    Kidney (Beef) - GHS 10.00
-                  </option>
-                  <option value="Tripe (Beef) - GHS 8.00">
-                    Tripe (Beef) - GHS 8.00
-                  </option>
-                  <option value="Tongue (Beef) - GHS 15.00">
-                    Tongue (Beef) - GHS 15.00
-                  </option>
-                  <option value="Heart (Chicken) - GHS 5.00">
-                    Heart (Chicken) - GHS 5.00
-                  </option>
-                  <option value="Gizzard (Chicken) - GHS 7.00">
-                    Gizzard (Chicken) - GHS 7.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Vegetarian Options">
-                  <option value="Egg (Boiled/Fried) - GHS 3.00">
-                    Egg (Boiled/Fried) - GHS 3.00
-                  </option>
-                  <option value="Agor (Beancake) - GHS 5.00">
-                    Agor (Beancake) - GHS 5.00
-                  </option>
-                  <option value="Tofu - GHS 8.00">Tofu - GHS 8.00</option>
-                  <option value="Tempeh - GHS 10.00">Tempeh - GHS 10.00</option>
-                  <option value="Mushrooms - GHS 12.00">
-                    Mushrooms - GHS 12.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Sausages & Processed">
-                  <option value="Beef Sausages - GHS 15.00">
-                    Beef Sausages - GHS 15.00
-                  </option>
-                  <option value="Chicken Sausages - GHS 12.00">
-                    Chicken Sausages - GHS 12.00
-                  </option>
-                  <option value="Hot Dogs - GHS 8.00">
-                    Hot Dogs - GHS 8.00
-                  </option>
-                  <option value="Bacon - GHS 20.00">Bacon - GHS 20.00</option>
-                  <option value="Ham - GHS 18.00">Ham - GHS 18.00</option>
-                </optgroup>
-              </select>
-            </div>
-
-            <!-- ...existing code... -->
-            <div class="input-boxs my-4">
-              <label for="Protein2">Extra Protein</label>
-              <select name="protein2" id="protein2" class="input-fill" required>
-                <option value="" disabled selected>Select Protein</option>
-
-                <optgroup label="Fish">
-                  <option value="Tilapia (Whole) - GHS 25.00">
-                    Tilapia (Whole) - GHS 25.00
-                  </option>
-                  <option value="Red Fish (Whole) - GHS 15.00">
-                    Red Fish (Whole) - GHS 15.00
-                  </option>
-                  <option value="Salmon Steak - GHS 35.00">
-                    Salmon Steak - GHS 35.00
-                  </option>
-                  <option value="Mackerel (Tuna) - GHS 12.00">
-                    Mackerel (Tuna) - GHS 12.00
-                  </option>
-                  <option value="Herring (Keta School Boys) - GHS 10.00">
-                    Herring (Keta School Boys) - GHS 10.00
-                  </option>
-                  <option value="Sardines - GHS 8.00">
-                    Sardines - GHS 8.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Regular Meat">
-                  <option value="Beef (Cow Meat) - GHS 15.00">
-                    Beef (Cow Meat) - GHS 15.00
-                  </option>
-                  <option value="Goat Meat - GHS 18.00">
-                    Goat Meat - GHS 18.00
-                  </option>
-                  <option value="Lamb (Sheep Meat) - GHS 20.00">
-                    Lamb (Sheep Meat) - GHS 20.00
-                  </option>
-                  <option value="Chicken (Local) - GHS 12.00">
-                    Chicken (Local) - GHS 12.00
-                  </option>
-                  <option value="Chicken (Broiler) - GHS 10.00">
-                    Chicken (Broiler) - GHS 10.00
-                  </option>
-                  <option value="Turkey - GHS 25.00">Turkey - GHS 25.00</option>
-                  <option value="Duck - GHS 22.00">Duck - GHS 22.00</option>
-                </optgroup>
-
-                <optgroup label="Bush Meat (Nkwanom)">
-                  <option value="Grasscutter (Akrantie) - GHS 35.00">
-                    Grasscutter (Akrantie) - GHS 35.00
-                  </option>
-                  <option value="Giant Rat (Kusie) - GHS 30.00">
-                    Giant Rat (Kusie) - GHS 30.00
-                  </option>
-                  <option value="Antelope (Adowa) - GHS 45.00">
-                    Antelope (Adowa) - GHS 45.00
-                  </option>
-                  <option value="Deer - GHS 40.00">Deer - GHS 40.00</option>
-                  <option value="Bush Pig - GHS 28.00">
-                    Bush Pig - GHS 28.00
-                  </option>
-                  <option value="Rabbit - GHS 25.00">Rabbit - GHS 25.00</option>
-                </optgroup>
-
-                <optgroup label="Seafood">
-                  <option value="Prawns (Large) - GHS 45.00">
-                    Prawns (Large) - GHS 45.00
-                  </option>
-                  <option value="Shrimps (Small) - GHS 30.00">
-                    Shrimps (Small) - GHS 30.00
-                  </option>
-                  <option value="Crab (Large) - GHS 15.00">
-                    Crab (Large) - GHS 15.00
-                  </option>
-                  <option value="Lobster - GHS 60.00">
-                    Lobster - GHS 60.00
-                  </option>
-                  <option value="Octopus - GHS 35.00">
-                    Octopus - GHS 35.00
-                  </option>
-                  <option value="Squid - GHS 28.00">Squid - GHS 28.00</option>
-                  <option value="Mussels - GHS 20.00">
-                    Mussels - GHS 20.00
-                  </option>
-                  <option value="Oysters - GHS 25.00">
-                    Oysters - GHS 25.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Ghanaian Specialties">
-                  <option value="Snail (Large) - GHS 25.00">
-                    Snail (Large) - GHS 25.00
-                  </option>
-                  <option value="Snail (Medium) - GHS 18.00">
-                    Snail (Medium) - GHS 18.00
-                  </option>
-                  <option value="Wele (Cow Skin) - GHS 8.00">
-                    Wele (Cow Skin) - GHS 8.00
-                  </option>
-                  <option value="Kɔkɔɔte (Turkey Berry) - GHS 5.00">
-                    Kɔkɔɔte (Turkey Berry) - GHS 5.00
-                  </option>
-                  <option value="Garden Egg Stew Base - GHS 6.00">
-                    Garden Egg Stew Base - GHS 6.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Organ Meals">
-                  <option value="Liver (Beef) - GHS 12.00">
-                    Liver (Beef) - GHS 12.00
-                  </option>
-                  <option value="Kidney (Beef) - GHS 10.00">
-                    Kidney (Beef) - GHS 10.00
-                  </option>
-                  <option value="Tripe (Beef) - GHS 8.00">
-                    Tripe (Beef) - GHS 8.00
-                  </option>
-                  <option value="Tongue (Beef) - GHS 15.00">
-                    Tongue (Beef) - GHS 15.00
-                  </option>
-                  <option value="Heart (Chicken) - GHS 5.00">
-                    Heart (Chicken) - GHS 5.00
-                  </option>
-                  <option value="Gizzard (Chicken) - GHS 7.00">
-                    Gizzard (Chicken) - GHS 7.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Vegetarian Options">
-                  <option value="Egg (Boiled/Fried) - GHS 3.00">
-                    Egg (Boiled/Fried) - GHS 3.00
-                  </option>
-                  <option value="Agor (Beancake) - GHS 5.00">
-                    Agor (Beancake) - GHS 5.00
-                  </option>
-                  <option value="Tofu - GHS 8.00">Tofu - GHS 8.00</option>
-                  <option value="Tempeh - GHS 10.00">Tempeh - GHS 10.00</option>
-                  <option value="Mushrooms - GHS 12.00">
-                    Mushrooms - GHS 12.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Sausages & Processed">
-                  <option value="Beef Sausages - GHS 15.00">
-                    Beef Sausages - GHS 15.00
-                  </option>
-                  <option value="Chicken Sausages - GHS 12.00">
-                    Chicken Sausages - GHS 12.00
-                  </option>
-                  <option value="Hot Dogs - GHS 8.00">
-                    Hot Dogs - GHS 8.00
-                  </option>
-                  <option value="Bacon - GHS 20.00">Bacon - GHS 20.00</option>
-                  <option value="Ham - GHS 18.00">Ham - GHS 18.00</option>
-                </optgroup>
-              </select>
-            </div>
-
-            <div class="input-boxs my-4">
-              <label for="Accompaniment">Accompaniment</label>
-              <select name="Accompaniment" id="Accompaniment" title="Accompaniment" class="input-fill" required>
-                <option value="" disabled selected>Select Accompaniment</option>
-                <option value="Salad With Cream - GHS 12.00">
-                  Salad With Cream - GHS 12.00
+          <div class="input-boxs my-4">
+            <label for="vendor-location">Vendor Location</label>
+            <select name="vendor_location" id="vendor_location" class="input-fill">
+              <optgroup label="Agona Swedru (Central Town)">
+                <option value="swedru-central">
+                  Agona Swedru (General Area)
                 </option>
-                <option value="Salad - GHS 10.00">Salad - GHS 10.00</option>
-                <option value="Gari - GHS 5.00">Gari - GHS 5.00</option>
-                <option value="Noodles - GHS 8.00">Noodles - GHS 8.00</option>
-                <option value="Okro - GHS 5.00">Okro - GHS 5.00</option>
-              </select>
-            </div>
-
-            <div class="input-boxs my-4">
-              <label for="Drinks">Drinks</label>
-              <select id="Drinks" name="Drinks" title="Drinks" class="input-fill" required>
-                <option value="" disabled selected>Select Drink</option>
-
-                <optgroup label="Water">
-                  <option value="Bottled Water 500ml - GHS 5.00">
-                    Bottled Water 500ml - GHS 5.00
-                  </option>
-                  <option value="Bottled Water 1L - GHS 8.00">
-                    Bottled Water 1L - GHS 8.00
-                  </option>
-                  <option value="Voltic Water 750ml - GHS 6.00">
-                    Voltic Water 750ml - GHS 6.00
-                  </option>
-                  <option value="Sachet Water (Pure Water) - GHS 1.00">
-                    Sachet Water (Pure Water) - GHS 1.00
-                  </option>
-                  <option value="Sparkling Water 330ml - GHS 12.00">
-                    Sparkling Water 330ml - GHS 12.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Soft Drinks (Carbonated)">
-                  <option value="Coca Cola 300ml - GHS 10.00">
-                    Coca Cola 300ml - GHS 10.00
-                  </option>
-                  <option value="Fanta 300ml - GHS 10.00">
-                    Fanta 300ml - GHS 10.00
-                  </option>
-                  <option value="Sprite 300ml - GHS 10.00">
-                    Sprite 300ml - GHS 10.00
-                  </option>
-                  <option value="Pepsi 300ml - GHS 10.00">
-                    Pepsi 300ml - GHS 10.00
-                  </option>
-                  <option value="Mirinda 300ml - GHS 10.00">
-                    Mirinda 300ml - GHS 10.00
-                  </option>
-                  <option value="Maltina 330ml - GHS 12.00">
-                    Maltina 330ml - GHS 12.00
-                  </option>
-                  <option value="Schweppes 300ml - GHS 11.00">
-                    Schweppes 300ml - GHS 11.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Local & Natural Drinks">
-                  <option value="Asaana (Fermented Corn Drink) - GHS 15.00">
-                    Asaana (Fermented Corn Drink) - GHS 15.00
-                  </option>
-                  <option value="Sobolo (Hibiscus Drink) - GHS 18.00">
-                    Sobolo (Hibiscus Drink) - GHS 18.00
-                  </option>
-                  <option value="Lamugin (Ginger Drink) - GHS 20.00">
-                    Lamugin (Ginger Drink) - GHS 20.00
-                  </option>
-                  <option value="Palm Wine (Fresh) - GHS 25.00">
-                    Palm Wine (Fresh) - GHS 25.00
-                  </option>
-                  <option value="Bissap Juice - GHS 18.00">
-                    Bissap Juice - GHS 18.00
-                  </option>
-                  <option value="Baobab Juice - GHS 22.00">
-                    Baobab Juice - GHS 22.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Fruit Juices & Smoothies">
-                  <option value="Fresh Orange Juice - GHS 25.00">
-                    Fresh Orange Juice - GHS 25.00
-                  </option>
-                  <option value="Fresh Pineapple Juice - GHS 22.00">
-                    Fresh Pineapple Juice - GHS 22.00
-                  </option>
-                  <option value="Fresh Mango Juice - GHS 25.00">
-                    Fresh Mango Juice - GHS 25.00
-                  </option>
-                  <option value="Mixed Fruit Smoothie - GHS 30.00">
-                    Mixed Fruit Smoothie - GHS 30.00
-                  </option>
-                  <option value="Watermelon Juice - GHS 20.00">
-                    Watermelon Juice - GHS 20.00
-                  </option>
-                  <option value="Avocado Smoothie - GHS 28.00">
-                    Avocado Smoothie - GHS 28.00
-                  </option>
-                  <option value="Tropical Blend Juice - GHS 25.00">
-                    Tropical Blend Juice - GHS 25.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Energy & Malt Drinks">
-                  <option value="Club Malta 330ml - GHS 12.00">
-                    Club Malta 330ml - GHS 12.00
-                  </option>
-                  <option value="Malta Guinness 330ml - GHS 12.00">
-                    Malta Guinness 330ml - GHS 12.00
-                  </option>
-                  <option value="Beta Malt 330ml - GHS 12.00">
-                    Beta Malt 330ml - GHS 12.00
-                  </option>
-                  <option value="Red Bull 250ml - GHS 25.00">
-                    Red Bull 250ml - GHS 25.00
-                  </option>
-                  <option value="Monster Energy 500ml - GHS 30.00">
-                    Monster Energy 500ml - GHS 30.00
-                  </option>
-                  <option value="Lucozade Boost 330ml - GHS 15.00">
-                    Lucozade Boost 330ml - GHS 15.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Beers">
-                  <option value="Club Beer 500ml - GHS 18.00">
-                    Club Beer 500ml - GHS 18.00
-                  </option>
-                  <option value="Star Beer 500ml - GHS 18.00">
-                    Star Beer 500ml - GHS 18.00
-                  </option>
-                  <option value="Guinness 500ml - GHS 20.00">
-                    Guinness 500ml - GHS 20.00
-                  </option>
-                  <option value="Hero Beer 500ml - GHS 16.00">
-                    Hero Beer 500ml - GHS 16.00
-                  </option>
-                  <option value="Stone Beer 500ml - GHS 17.00">
-                    Stone Beer 500ml - GHS 17.00
-                  </option>
-                  <option value="Eagle Lager 500ml - GHS 18.00">
-                    Eagle Lager 500ml - GHS 18.00
-                  </option>
-                  <option value="Heineken 330ml - GHS 22.00">
-                    Heineken 330ml - GHS 22.00
-                  </option>
-                  <option value="Desperados 330ml - GHS 25.00">
-                    Desperados 330ml - GHS 25.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Spirits & Liquor">
-                  <option value="Akpeteshie (Local Gin) - GHS 15.00">
-                    Akpeteshie (Local Gin) - GHS 15.00
-                  </option>
-                  <option value="Alomo Bitters - GHS 20.00">
-                    Alomo Bitters - GHS 20.00
-                  </option>
-                  <option value="Kasapreko Bitters - GHS 22.00">
-                    Kasapreko Bitters - GHS 22.00
-                  </option>
-                  <option value="Ogyama Bitters - GHS 18.00">
-                    Ogyama Bitters - GHS 18.00
-                  </option>
-                  <option value="Smirnoff Vodka 50ml - GHS 25.00">
-                    Smirnoff Vodka 50ml - GHS 25.00
-                  </option>
-                  <option value="Gordon's Gin 50ml - GHS 28.00">
-                    Gordon's Gin 50ml - GHS 28.00
-                  </option>
-                  <option value="Jameson Whiskey 50ml - GHS 35.00">
-                    Jameson Whiskey 50ml - GHS 35.00
-                  </option>
-                  <option value="Johnnie Walker 50ml - GHS 40.00">
-                    Johnnie Walker 50ml - GHS 40.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Wines">
-                  <option value="Red Wine (Glass) - GHS 35.00">
-                    Red Wine (Glass) - GHS 35.00
-                  </option>
-                  <option value="White Wine (Glass) - GHS 35.00">
-                    White Wine (Glass) - GHS 35.00
-                  </option>
-                  <option value="Rosé Wine (Glass) - GHS 38.00">
-                    Rosé Wine (Glass) - GHS 38.00
-                  </option>
-                  <option value="Sparkling Wine (Glass) - GHS 45.00">
-                    Sparkling Wine (Glass) - GHS 45.00
-                  </option>
-                  <option value="Four Cousins 750ml - GHS 120.00">
-                    Four Cousins 750ml - GHS 120.00
-                  </option>
-                  <option value="Namaqua Wine 750ml - GHS 100.00">
-                    Namaqua Wine 750ml - GHS 100.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Hot Beverages">
-                  <option value="Coffee (Local) - GHS 15.00">
-                    Coffee (Local) - GHS 15.00
-                  </option>
-                  <option value="Cappuccino - GHS 25.00">
-                    Cappuccino - GHS 25.00
-                  </option>
-                  <option value="Latte - GHS 28.00">Latte - GHS 28.00</option>
-                  <option value="Espresso - GHS 20.00">
-                    Espresso - GHS 20.00
-                  </option>
-                  <option value="Tea (Local) - GHS 12.00">
-                    Tea (Local) - GHS 12.00
-                  </option>
-                  <option value="Green Tea - GHS 15.00">
-                    Green Tea - GHS 15.00
-                  </option>
-                  <option value="Herbal Tea - GHS 18.00">
-                    Herbal Tea - GHS 18.00
-                  </option>
-                  <option value="Hot Chocolate - GHS 22.00">
-                    Hot Chocolate - GHS 22.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Packaged Juices">
-                  <option value="Peak Milk 400ml - GHS 25.00">
-                    Peak Milk 400ml - GHS 25.00
-                  </option>
-                  <option value="Dano Milk 500ml - GHS 18.00">
-                    Dano Milk 500ml - GHS 18.00
-                  </option>
-                  <option value="Yo! Fruit Juice 1L - GHS 35.00">
-                    Yo! Fruit Juice 1L - GHS 35.00
-                  </option>
-                  <option value="Chi Exotic 500ml - GHS 20.00">
-                    Chi Exotic 500ml - GHS 20.00
-                  </option>
-                  <option value="Capri-Sun 330ml - GHS 15.00">
-                    Capri-Sun 330ml - GHS 15.00
-                  </option>
-                  <option value="Ribena 330ml - GHS 18.00">
-                    Ribena 330ml - GHS 18.00
-                  </option>
-                </optgroup>
-              </select>
-            </div>
-
-            <div class="input-boxs my-4">
-              <label for="Packaging">Packaging</label>
-              <select id="Packaging" name="Packaging" title="Packaging" class="input-fill" required>
-                <option value="" disabled selected>Select Packaging</option>
-
-                <optgroup label="Basic Packaging">
-                  <option value="Paper Bag (Small) - GHS 3.00">
-                    Paper Bag (Small) - GHS 3.00
-                  </option>
-                  <option value="Paper Bag (Large) - GHS 5.00">
-                    Paper Bag (Large) - GHS 5.00
-                  </option>
-                  <option value="Plastic Container (Small) - GHS 4.00">
-                    Plastic Container (Small) - GHS 4.00
-                  </option>
-                  <option value="Plastic Container (Large) - GHS 6.00">
-                    Plastic Container (Large) - GHS 6.00
-                  </option>
-                  <option value="Poly Bag - GHS 2.00">
-                    Poly Bag - GHS 2.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Specialty Food Containers">
-                  <option value="Soup Bowl with Cover - GHS 8.00">
-                    Soup Bowl with Cover - GHS 8.00
-                  </option>
-                  <option value="Compartment Tray (3-section) - GHS 10.00">
-                    Compartment Tray (3-section) - GHS 10.00
-                  </option>
-                  <option value="Compartment Tray (4-section) - GHS 12.00">
-                    Compartment Tray (4-section) - GHS 12.00
-                  </option>
-                  <option value="Rice Box - GHS 7.00">
-                    Rice Box - GHS 7.00
-                  </option>
-                  <option value="Banku/Fufu Container - GHS 9.00">
-                    Banku/Fufu Container - GHS 9.00
-                  </option>
-                  <option value="Salad Box - GHS 6.00">
-                    Salad Box - GHS 6.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Traditional Ghanaian Packaging">
-                  <option value="Asanka (Clay Bowl) - GHS 25.00">
-                    Asanka (Clay Bowl) - GHS 25.00
-                  </option>
-                  <option value="Aburowa (Traditional Basket) - GHS 30.00">
-                    Aburowa (Traditional Basket) - GHS 30.00
-                  </option>
-                  <option value="Enamel Bowl Set - GHS 35.00">
-                    Enamel Bowl Set - GHS 35.00
-                  </option>
-                  <option value="Calabash Bowl - GHS 28.00">
-                    Calabash Bowl - GHS 28.00
-                  </option>
-                  <option value="Woven Mat Set - GHS 40.00">
-                    Woven Mat Set - GHS 40.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Premium & VIP Packaging">
-                  <option value="VIP Wooden Box - GHS 50.00">
-                    VIP Wooden Box - GHS 50.00
-                  </option>
-                  <option value="Premium Thermal Bag - GHS 35.00">
-                    Premium Thermal Bag - GHS 35.00
-                  </option>
-                  <option value="Insulated Food Carrier - GHS 45.00">
-                    Insulated Food Carrier - GHS 45.00
-                  </option>
-                  <option value="Bamboo Lunch Set - GHS 38.00">
-                    Bamboo Lunch Set - GHS 38.00
-                  </option>
-                  <option value="Stainless Steel Tiffin - GHS 60.00">
-                    Stainless Steel Tiffin - GHS 60.00
-                  </option>
-                  <option value="Glass Container Set - GHS 55.00">
-                    Glass Container Set - GHS 55.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Eco-Friendly Packaging">
-                  <option value="Biodegradable Box - GHS 12.00">
-                    Biodegradable Box - GHS 12.00
-                  </option>
-                  <option value="Palm Leaf Container - GHS 15.00">
-                    Palm Leaf Container - GHS 15.00
-                  </option>
-                  <option value="Sugarcane Fiber Box - GHS 14.00">
-                    Sugarcane Fiber Box - GHS 14.00
-                  </option>
-                  <option value="Recycled Paper Bag - GHS 8.00">
-                    Recycled Paper Bag - GHS 8.00
-                  </option>
-                  <option value="Cornstarch Container - GHS 16.00">
-                    Cornstarch Container - GHS 16.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Bulk & Family Packaging">
-                  <option value="Family Pack (Large Tray) - GHS 25.00">
-                    Family Pack (Large Tray) - GHS 25.00
-                  </option>
-                  <option value="Party Pack (6-section) - GHS 40.00">
-                    Party Pack (6-section) - GHS 40.00
-                  </option>
-                  <option value="Catering Size Container - GHS 30.00">
-                    Catering Size Container - GHS 30.00
-                  </option>
-                  <option value="Insulated Cooler Bag - GHS 55.00">
-                    Insulated Cooler Bag - GHS 55.00
-                  </option>
-                  <option value="Large Thermal Box - GHS 65.00">
-                    Large Thermal Box - GHS 65.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Special Occasion Packaging">
-                  <option value="Anniversary Special Pack - GHS 75.00">
-                    Anniversary Special Pack - GHS 75.00
-                  </option>
-                  <option value="Birthday Celebration Box - GHS 65.00">
-                    Birthday Celebration Box - GHS 65.00
-                  </option>
-                  <option value="Valentine's Love Pack - GHS 80.00">
-                    Valentine's Love Pack - GHS 80.00
-                  </option>
-                  <option value="Christmas Holiday Box - GHS 70.00">
-                    Christmas Holiday Box - GHS 70.00
-                  </option>
-                  <option value="Corporate Gift Pack - GHS 90.00">
-                    Corporate Gift Pack - GHS 90.00
-                  </option>
-                </optgroup>
-
-                <optgroup label="Add-on Accessories">
-                  <option value="Cutlery Set (Fork & Spoon) - GHS 5.00">
-                    Cutlery Set (Fork & Spoon) - GHS 5.00
-                  </option>
-                  <option value="Premium Cutlery Set - GHS 8.00">
-                    Premium Cutlery Set - GHS 8.00
-                  </option>
-                  <option value="Napkins (Pack of 5) - GHS 3.00">
-                    Napkins (Pack of 5) - GHS 3.00
-                  </option>
-                  <option value="Wet Wipes - GHS 4.00">
-                    Wet Wipes - GHS 4.00
-                  </option>
-                  <option value="Sauce Containers (2pcs) - GHS 6.00">
-                    Sauce Containers (2pcs) - GHS 6.00
-                  </option>
-                  <option value="Drink Holder - GHS 7.00">
-                    Drink Holder - GHS 7.00
-                  </option>
-                </optgroup>
-              </select>
-            </div>
-
-            <div class="input-boxs my-4">
-              <label for="Delivery">Delivery Period</label>
-              <select id="Delivery" name="Delivery" title="Delivery Period" class="input-fill" required>
-                <option value="" disabled selected>
-                  Select Delivery Period
+                <option value="central-market">
+                  Central Market (Mandela Market)
                 </option>
+                <option value="swedru-zongo">Swedru Zongo</option>
+                <option value="akwaa-mor">Akwakwaa-Mor</option>
+                <option value="mahalla">Mahalla</option>
+                <option value="pipe-tank">Pipe Tank</option>
+                <option value="chapel-square">Chapel Square</option>
+                <option value="abodom-road">Abodom Road</option>
+                <option value="agip">Agip</option>
+              </optgroup>
 
-                <optgroup label="Express Delivery">
-                  <option value="Within 1 Hour - GHS 25.00">
-                    Within 1 Hour - GHS 25.00
-                  </option>
-                  <option value="Within 90 Minutes - GHS 20.00">
-                    Within 90 Minutes - GHS 20.00
-                  </option>
-                  <option value="Within 2 Hours - GHS 18.00">
-                    Within 2 Hours - GHS 18.00
-                  </option>
-                </optgroup>
+              <optgroup label="Other Major Towns/Settlements">
+                <option value="nyakrom">Nyakrom</option>
+                <option value="abodum">Abodom</option>
+                <option value="bobikuma">Bobikuma</option>
+                <option value="kwaman">Kwaman</option>
+                <option value="nkum">Nkum</option>
+                <option value="wawase">Wawase</option>
+                <option value="old-sawnmills">Old Sawnmills</option>
+                <option value="new-sawnmills">New Sawnmills</option>
+                <option value="new-kwansakrom">New Kwansakrom</option>
+                <option value="old-kwansakrom">Old Kwansakrom</option>
+                <option value="otsenkorang">Otsenkorang</option>
+                <option value="adukori">Adukori</option>
+                <option value="oteprow">Oteprow</option>
+                <option value="ahomadonko">Ahomadonko</option>
+                <option value="kukurantumi">Kukurantumi</option>
+                <option value="bibianiha">Bibianiha</option>
+                <option value="asafo">Asafo</option>
+                <option value="duakwa">Duakwa</option>
+                <option value="kwanyako">Kwanyako</option>
+                <option value="mankrong">Mankrong</option>
+              </optgroup>
+            </select>
+          </div>
 
-                <optgroup label="Same Day Delivery">
-                  <option value="Today - Morning (8AM-12PM) - GHS 15.00">
-                    Today - Morning (8AM-12PM) - GHS 15.00
-                  </option>
-                  <option value="Today - Afternoon (12PM-4PM) - GHS 15.00">
-                    Today - Afternoon (12PM-4PM) - GHS 15.00
-                  </option>
-                  <option value="Today - Evening (4PM-8PM) - GHS 18.00">
-                    Today - Evening (4PM-8PM) - GHS 18.00
-                  </option>
-                  <option value="Today - Night (8PM-10PM) - GHS 25.00">
-                    Today - Night (8PM-10PM) - GHS 25.00
-                  </option>
-                </optgroup>
+          <div class="input-boxs my-4">
+            <label for="message">Additional Notes</label>
+            <textarea name="message" class="txt-box" id="message" rows="10"
+              placeholder="Any Special Request Or Additional Instructions"></textarea>
+            <style>
+              ::placeholder {
+                color: #c3c3c3;
+                opacity: 1;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="food-selection-col col-lg-7 col-md-12 border">
+          <h1 class="food-selection-col-title">Make Your Dish</h1>
+          <div class="input-boxs my-4">
+            <label for="main_dishes">Main Dishes</label>
+            <select name="main_dishes" id="main_dishes" class="input-fill" required>
+              <option value="" disabled selected>Select Main Dish</option>
 
-                <optgroup label="Next Day Delivery">
-                  <option value="Tomorrow - Morning (8AM-12PM) - GHS 12.00">
-                    Tomorrow - Morning (8AM-12PM) - GHS 12.00
-                  </option>
-                  <option value="Tomorrow - Afternoon (12PM-4PM) - GHS 12.00">
-                    Tomorrow - Afternoon (12PM-4PM) - GHS 12.00
-                  </option>
-                  <option value="Tomorrow - Evening (4PM-8PM) - GHS 15.00">
-                    Tomorrow - Evening (4PM-8PM) - GHS 15.00
-                  </option>
-                </optgroup>
+              <optgroup label="Fufu Dishes">
+                <option value="Fufu with Light Soup - GHS 35.00">
+                  Fufu with Light Soup - GHS 35.00
+                </option>
+                <option value="Fufu with Palm Nut Soup - GHS 40.00">
+                  Fufu with Palm Nut Soup - GHS 40.00
+                </option>
+                <option value="Fufu with Groundnut Soup - GHS 45.00">
+                  Fufu with Groundnut Soup - GHS 45.00
+                </option>
+                <option value="Fufu with Ayoyo Soup - GHS 35.00">
+                  Fufu with Ayoyo Soup - GHS 35.00
+                </option>
+              </optgroup>
 
-                <optgroup label="Scheduled Delivery">
-                  <option value="Within 3 Days - GHS 10.00">
-                    Within 3 Days - GHS 10.00
-                  </option>
-                  <option value="Within 5 Days - GHS 8.00">
-                    Within 5 Days - GHS 8.00
-                  </option>
-                  <option value="Next Week - GHS 6.00">
-                    Next Week - GHS 6.00
-                  </option>
-                  <option value="Specific Date & Time - GHS 15.00">
-                    Specific Date & Time - GHS 15.00
-                  </option>
-                </optgroup>
+              <optgroup label="Banku Dishes">
+                <option value="Banku with Okro Soup - GHS 30.00">
+                  Banku with Okro Soup - GHS 30.00
+                </option>
+                <option value="Banku with Groundnut Soup - GHS 35.00">
+                  Banku with Groundnut Soup - GHS 35.00
+                </option>
+                <option value="Banku with Palm Nut Soup - GHS 35.00">
+                  Banku with Palm Nut Soup - GHS 35.00
+                </option>
+                <option value="Banku with Light Soup - GHS 30.00">
+                  Banku with Light Soup - GHS 30.00
+                </option>
+                <option value="Banku with Pepper Sauce - GHS 25.00">
+                  Banku with Pepper Sauce - GHS 25.00
+                </option>
+                <option value="Banku with Grilled Tilapia - GHS 50.00">
+                  Banku with Grilled Tilapia - GHS 50.00
+                </option>
+              </optgroup>
 
-                <optgroup label="Premium Services">
-                  <option value="VIP Express (45 mins) - GHS 35.00">
-                    VIP Express (45 mins) - GHS 35.00
-                  </option>
-                  <option value="Temperature Controlled - GHS 30.00">
-                    Temperature Controlled - GHS 30.00
-                  </option>
-                  <option value="Weekend Delivery - GHS 20.00">
-                    Weekend Delivery - GHS 20.00
-                  </option>
-                  <option value="Holiday Delivery - GHS 40.00">
-                    Holiday Delivery - GHS 40.00
-                  </option>
-                </optgroup>
+              <optgroup label="Rice Dishes">
+                <option value="Jollof Rice - GHS 45.00">
+                  Jollof Rice - GHS 45.00
+                </option>
+                <option value="Fried Rice - GHS 50.00">
+                  Fried Rice - GHS 50.00
+                </option>
+                <option value="Waakye - GHS 35.00">Waakye - GHS 35.00</option>
+                <option value="Plain Rice with Stew - GHS 30.00">
+                  Plain Rice with Stew - GHS 30.00
+                </option>
+                <option value="Angwa Mo (Oil Rice) - GHS 40.00">
+                  Angwa Mo (Oil Rice) - GHS 40.00
+                </option>
+                <option value="Omo Tuo (Rice Balls) - GHS 35.00">
+                  Omo Tuo (Rice Balls) - GHS 35.00
+                </option>
+                <option value="Concon - GHS 35.00">Concon - GHS 35.00</option>
+              </optgroup>
 
-                <optgroup label="Free & Special Options">
-                  <option value="Pickup at Restaurant - FREE">
-                    Pickup at Restaurant - FREE
-                  </option>
-                  <option value="Standard (3-5 days) - GHS 5.00">
-                    Standard (3-5 days) - GHS 5.00
-                  </option>
-                  <option value="Bulk Order Delivery - GHS 25.00">
-                    Bulk Order Delivery - GHS 25.00
-                  </option>
-                  <option value="Corporate Delivery - GHS 20.00">
-                    Corporate Delivery - GHS 20.00
-                  </option>
-                </optgroup>
+              <optgroup label="Kenkey & Akple">
+                <option value="Kenkey (Ga) with Fried Fish - GHS 40.00">
+                  Kenkey (Ga) with Fried Fish - GHS 40.00
+                </option>
+                <option value="Kenkey (Fante) with Grilled Fish - GHS 45.00">
+                  Kenkey (Fante) with Grilled Fish - GHS 45.00
+                </option>
+                <option value="Akple with Okro Soup - GHS 35.00">
+                  Akple with Okro Soup - GHS 35.00
+                </option>
+                <option value="Akple with Groundnut Soup - GHS 40.00">
+                  Akple with Groundnut Soup - GHS 40.00
+                </option>
+                <option value="Kenkey with Shito & Sardines - GHS 35.00">
+                  Kenkey with Shito & Sardines - GHS 35.00
+                </option>
+              </optgroup>
 
-                <optgroup label="Location-Based Delivery">
-                  <option value="Accra Central - GHS 15.00">
-                    Accra Central - GHS 15.00
-                  </option>
-                  <option value="Airport & Environs - GHS 25.00">
-                    Airport & Environs - GHS 25.00
-                  </option>
-                  <option value="East Legon & Trasacco - GHS 20.00">
-                    East Legon & Trasacco - GHS 20.00
-                  </option>
-                  <option value="Tema Community - GHS 30.00">
-                    Tema Community - GHS 30.00
-                  </option>
-                  <option value="Kasoa & Winneba - GHS 40.00">
-                    Kasoa & Winneba - GHS 40.00
-                  </option>
-                  <option value="Outside Greater Accra - GHS 60.00">
-                    Outside Greater Accra - GHS 60.00
-                  </option>
-                </optgroup>
-              </select>
-            </div>
+              <optgroup label="Tuo Zaafi & Swallows">
+                <option value="Tuo Zaafi with Ayoyo Soup - GHS 30.00">
+                  Tuo Zaafi with Ayoyo Soup - GHS 30.00
+                </option>
+                <option value="Tuo Zaafi with Nkatenkwan - GHS 40.00">
+                  Tuo Zaafi with Nkatenkwan - GHS 40.00
+                </option>
+                <option value="Kokonte with Groundnut Soup - GHS 25.00">
+                  Kokonte with Groundnut Soup - GHS 25.00
+                </option>
+                <option value="Kokonte with Light Soup - GHS 25.00">
+                  Kokonte with Light Soup - GHS 25.00
+                </option>
+                <option value="Akonfem with Palm Nut Soup - GHS 35.00">
+                  Akonfem with Palm Nut Soup - GHS 35.00
+                </option>
+              </optgroup>
 
-            <!-- Place this div just before the closing </section> tag of your food-selection section -->
-            <div class="input-boxs my-4" id="total-cost-box" style="text-align: center">
-              <h3>
-                Total Cost:
-                <span id="total-cost" style="color: #fff">GHS 0.00</span>
+              <optgroup label="Yam & Plantain Dishes">
+                <option value="Boiled Yam with Kontomire Stew - GHS 35.00">
+                  Boiled Yam with Kontomire Stew - GHS 35.00
+                </option>
+                <option value="Boiled Yam with Garden Egg Stew - GHS 30.00">
+                  Boiled Yam with Garden Egg Stew - GHS 30.00
+                </option>
+                <option value="Fried Yam with Stew - GHS 40.00">
+                  Fried Yam with Stew - GHS 40.00
+                </option>
+                <option value="Fried Plantain with Beans - GHS 35.00">
+                  Fried Plantain with Beans - GHS 35.00
+                </option>
+                <option value="Boiled Plantain with Kontomire - GHS 30.00">
+                  Boiled Plantain with Kontomire - GHS 30.00
+                </option>
+                <option value="Plantain with Garden Egg Stew - GHS 25.00">
+                  Plantain with Garden Egg Stew - GHS 25.00
+                </option>
+                <option value="Yam Chips with Chicken - GHS 45.00">
+                  Yam Chips with Chicken - GHS 45.00
+                </option>
+              </optgroup>
 
-                <span id="total-cost" style="color: rgb(0, 119, 255)">GHS 0.00</span>
+              <optgroup label="Stews & Sauces">
+                <option value="Kontomire Stew with Boiled Eggs - GHS 35.00">
+                  Kontomire Stew with Boiled Eggs - GHS 35.00
+                </option>
+                <option value="Garden Egg Stew - GHS 30.00">
+                  Garden Egg Stew - GHS 30.00
+                </option>
+                <option value="Palava Sauce - GHS 35.00">
+                  Palava Sauce - GHS 35.00
+                </option>
+                <option value="Light Soup Only - GHS 25.00">
+                  Light Soup Only - GHS 25.00
+                </option>
+                <option value="Groundnut Soup Only - GHS 30.00">
+                  Groundnut Soup Only - GHS 30.00
+                </option>
+                <option value="Palm Nut Soup Only - GHS 30.00">
+                  Palm Nut Soup Only - GHS 30.00
+                </option>
+                <option value="Okro Soup Only - GHS 25.00">
+                  Okro Soup Only - GHS 25.00
+                </option>
+              </optgroup>
 
-              </h3>
+              <optgroup label="Beans & Legumes">
+                <option value="Beans with Fried Plantain - GHS 35.00">
+                  Beans with Fried Plantain - GHS 35.00
+                </option>
+                <option value="Beans with Gari - GHS 25.00">
+                  Beans with Gari - GHS 25.00
+                </option>
+                <option value="Beans with Bread - GHS 30.00">
+                  Beans with Bread - GHS 30.00
+                </option>
+                <option value="Red Red (Beans with Fried Plantain) - GHS 40.00">
+                  Red Red (Beans with Fried Plantain) - GHS 40.00
+                </option>
+                <option value="Beans Stew with Yam - GHS 35.00">
+                  Beans Stew with Yam - GHS 35.00
+                </option>
+              </optgroup>
 
-              <script>
-                // Total Cost
-                // Utility to extract price from value string (e.g., "Fufu with/ Light Soup - GHS 6.00")
-                function extractPrice(val) {
-                  if (!val) return 0;
-                  var match = val.match(/GHS ([\d.]+)/);
-                  return match ? parseFloat(match[1]) : 0;
-                }
+              <optgroup label="Breakfast Specials">
+                <option value="Hausa Koko with Koose - GHS 25.00">
+                  Hausa Koko with Koose - GHS 25.00
+                </option>
+                <option value="Rice Water (Omu) with Bread - GHS 20.00">
+                  Rice Water (Omu) with Bread - GHS 20.00
+                </option>
+                <option value="Tom Brown with Milk - GHS 15.00">
+                  Tom Brown with Milk - GHS 15.00
+                </option>
+                <option value="Boiled Eggs with Bread - GHS 20.00">
+                  Boiled Eggs with Bread - GHS 20.00
+                </option>
+                <option value="Tea/Coffee with Bread - GHS 18.00">
+                  Tea/Coffee with Bread - GHS 18.00
+                </option>
+              </optgroup>
 
-                function do_total() {
-                  var total = 0;
+              <optgroup label="Snacks & Sides">
+                <option value="Kebab (2 sticks) - GHS 25.00">
+                  Kebab (2 sticks) - GHS 25.00
+                </option>
+                <option value="Samosa (3 pieces) - GHS 15.00">
+                  Samosa (3 pieces) - GHS 15.00
+                </option>
+                <option value="Spring Rolls (4 pieces) - GHS 20.00">
+                  Spring Rolls (4 pieces) - GHS 20.00
+                </option>
+                <option value="Sausage Rolls (3 pieces) - GHS 18.00">
+                  Sausage Rolls (3 pieces) - GHS 18.00
+                </option>
+                <option value="Plantain Chips - GHS 12.00">
+                  Plantain Chips - GHS 12.00
+                </option>
+                <option value="Yam Balls (6 pieces) - GHS 20.00">
+                  Yam Balls (6 pieces) - GHS 20.00
+                </option>
+              </optgroup>
+            </select>
+          </div>
 
-                  // Main Dish
-                  var main = document.getElementById("main_dishes");
-                  if (main && main.value) total += extractPrice(main.value);
+          <div class="input-boxs my-4">
+            <label for="protein">Protein</label>
+            <select name="protein" id="protein" class="input-fill" required>
+              <option value="" disabled selected>Select Protein</option>
 
-                  // Protein
-                  var protein = document.getElementById("protein");
-                  if (protein && protein.value)
-                    total += extractPrice(protein.value);
+              <optgroup label="Fish">
+                <option value="Tilapia (Whole) - GHS 25.00">
+                  Tilapia (Whole) - GHS 25.00
+                </option>
+                <option value="Red Fish (Whole) - GHS 15.00">
+                  Red Fish (Whole) - GHS 15.00
+                </option>
+                <option value="Salmon Steak - GHS 35.00">
+                  Salmon Steak - GHS 35.00
+                </option>
+                <option value="Mackerel (Tuna) - GHS 12.00">
+                  Mackerel (Tuna) - GHS 12.00
+                </option>
+                <option value="Herring (Keta School Boys) - GHS 10.00">
+                  Herring (Keta School Boys) - GHS 10.00
+                </option>
+                <option value="Sardines - GHS 8.00">
+                  Sardines - GHS 8.00
+                </option>
+              </optgroup>
 
-                  // Extra Protein
-                  var protein2 = document.getElementById("Protein2");
-                  if (protein2 && protein2.value)
-                    total += extractPrice(protein2.value);
+              <optgroup label="Regular Meat">
+                <option value="Beef (Cow Meat) - GHS 15.00">
+                  Beef (Cow Meat) - GHS 15.00
+                </option>
+                <option value="Goat Meat - GHS 18.00">
+                  Goat Meat - GHS 18.00
+                </option>
+                <option value="Lamb (Sheep Meat) - GHS 20.00">
+                  Lamb (Sheep Meat) - GHS 20.00
+                </option>
+                <option value="Chicken (Local) - GHS 12.00">
+                  Chicken (Local) - GHS 12.00
+                </option>
+                <option value="Chicken (Broiler) - GHS 10.00">
+                  Chicken (Broiler) - GHS 10.00
+                </option>
+                <option value="Turkey - GHS 25.00">Turkey - GHS 25.00</option>
+                <option value="Duck - GHS 22.00">Duck - GHS 22.00</option>
+              </optgroup>
 
-                  // Accompaniment
-                  var acc = document.getElementById("Accompaniment");
-                  if (acc && acc.value) total += extractPrice(acc.value);
+              <optgroup label="Bush Meat (Nkwanom)">
+                <option value="Grasscutter (Akrantie) - GHS 35.00">
+                  Grasscutter (Akrantie) - GHS 35.00
+                </option>
+                <option value="Giant Rat (Kusie) - GHS 30.00">
+                  Giant Rat (Kusie) - GHS 30.00
+                </option>
+                <option value="Antelope (Adowa) - GHS 45.00">
+                  Antelope (Adowa) - GHS 45.00
+                </option>
+                <option value="Deer - GHS 40.00">Deer - GHS 40.00</option>
+                <option value="Bush Pig - GHS 28.00">
+                  Bush Pig - GHS 28.00
+                </option>
+                <option value="Rabbit - GHS 25.00">Rabbit - GHS 25.00</option>
+              </optgroup>
 
-                  // Drinks
-                  var drink = document.getElementById("Drinks");
-                  if (drink && drink.value) total += extractPrice(drink.value);
+              <optgroup label="Seafood">
+                <option value="Prawns (Large) - GHS 45.00">
+                  Prawns (Large) - GHS 45.00
+                </option>
+                <option value="Shrimps (Small) - GHS 30.00">
+                  Shrimps (Small) - GHS 30.00
+                </option>
+                <option value="Crab (Large) - GHS 15.00">
+                  Crab (Large) - GHS 15.00
+                </option>
+                <option value="Lobster - GHS 60.00">
+                  Lobster - GHS 60.00
+                </option>
+                <option value="Octopus - GHS 35.00">
+                  Octopus - GHS 35.00
+                </option>
+                <option value="Squid - GHS 28.00">Squid - GHS 28.00</option>
+                <option value="Mussels - GHS 20.00">
+                  Mussels - GHS 20.00
+                </option>
+                <option value="Oysters - GHS 25.00">
+                  Oysters - GHS 25.00
+                </option>
+              </optgroup>
 
-                  // Packaging
-                  var packaging = document.getElementById("Packaging");
-                  if (packaging && packaging.value)
-                    total += extractPrice(packaging.value);
+              <optgroup label="Ghanaian Specialties">
+                <option value="Snail (Large) - GHS 25.00">
+                  Snail (Large) - GHS 25.00
+                </option>
+                <option value="Snail (Medium) - GHS 18.00">
+                  Snail (Medium) - GHS 18.00
+                </option>
+                <option value="Wele (Cow Skin) - GHS 8.00">
+                  Wele (Cow Skin) - GHS 8.00
+                </option>
+                <option value="Kɔkɔɔte (Turkey Berry) - GHS 5.00">
+                  Kɔkɔɔte (Turkey Berry) - GHS 5.00
+                </option>
+                <option value="Garden Egg Stew Base - GHS 6.00">
+                  Garden Egg Stew Base - GHS 6.00
+                </option>
+              </optgroup>
 
-                  // Delivery
-                  var delivery = document.getElementById("Delivery");
-                  if (delivery && delivery.value)
-                    total += extractPrice(delivery.value);
+              <optgroup label="Organ Meals">
+                <option value="Liver (Beef) - GHS 12.00">
+                  Liver (Beef) - GHS 12.00
+                </option>
+                <option value="Kidney (Beef) - GHS 10.00">
+                  Kidney (Beef) - GHS 10.00
+                </option>
+                <option value="Tripe (Beef) - GHS 8.00">
+                  Tripe (Beef) - GHS 8.00
+                </option>
+                <option value="Tongue (Beef) - GHS 15.00">
+                  Tongue (Beef) - GHS 15.00
+                </option>
+                <option value="Heart (Chicken) - GHS 5.00">
+                  Heart (Chicken) - GHS 5.00
+                </option>
+                <option value="Gizzard (Chicken) - GHS 7.00">
+                  Gizzard (Chicken) - GHS 7.00
+                </option>
+              </optgroup>
 
-                  // Show total
-                  document.getElementById("total-cost").textContent =
-                    "GHS " + total.toFixed(2);
-                  document.getElementById("amount").value = total.toFixed(2);
-                }
+              <optgroup label="Vegetarian Options">
+                <option value="Egg (Boiled/Fried) - GHS 3.00">
+                  Egg (Boiled/Fried) - GHS 3.00
+                </option>
+                <option value="Agor (Beancake) - GHS 5.00">
+                  Agor (Beancake) - GHS 5.00
+                </option>
+                <option value="Tofu - GHS 8.00">Tofu - GHS 8.00</option>
+                <option value="Tempeh - GHS 10.00">Tempeh - GHS 10.00</option>
+                <option value="Mushrooms - GHS 12.00">
+                  Mushrooms - GHS 12.00
+                </option>
+              </optgroup>
 
-                // Attach do_total to all relevant selects
-                document.addEventListener("DOMContentLoaded", function () {
-                  [
-                    "main_dishes",
-                    "protein",
-                    "Protein2",
-                    "Accompaniment",
-                    "Drinks",
-                    "Packaging",
-                    "Delivery",
-                  ].forEach(function (id) {
-                    var el = document.getElementById(id);
-                    if (el) el.addEventListener("change", do_total);
-                  });
+              <optgroup label="Sausages & Processed">
+                <option value="Beef Sausages - GHS 15.00">
+                  Beef Sausages - GHS 15.00
+                </option>
+                <option value="Chicken Sausages - GHS 12.00">
+                  Chicken Sausages - GHS 12.00
+                </option>
+                <option value="Hot Dogs - GHS 8.00">
+                  Hot Dogs - GHS 8.00
+                </option>
+                <option value="Bacon - GHS 20.00">Bacon - GHS 20.00</option>
+                <option value="Ham - GHS 18.00">Ham - GHS 18.00</option>
+              </optgroup>
+            </select>
+          </div>
 
-                  // Also update total if user adds a custom option via Enter key
-                  var observer = new MutationObserver(do_total);
-                  [
-                    "main_dishes",
-                    "protein",
-                    "Protein2",
-                    "Accompaniment",
-                    "Drinks",
-                    "Packaging",
-                    "Delivery",
-                  ].forEach(function (id) {
-                    var el = document.getElementById(id);
-                    if (el) observer.observe(el, { childList: true });
-                  });
+          <!-- ...existing code... -->
+          <div class="input-boxs my-4">
+            <label for="Protein2">Extra Protein</label>
+            <select name="protein2" id="protein2" class="input-fill" required>
+              <option value="" disabled selected>Select Protein</option>
 
-                  // Initial calculation
-                  do_total();
+              <optgroup label="Fish">
+                <option value="Tilapia (Whole) - GHS 25.00">
+                  Tilapia (Whole) - GHS 25.00
+                </option>
+                <option value="Red Fish (Whole) - GHS 15.00">
+                  Red Fish (Whole) - GHS 15.00
+                </option>
+                <option value="Salmon Steak - GHS 35.00">
+                  Salmon Steak - GHS 35.00
+                </option>
+                <option value="Mackerel (Tuna) - GHS 12.00">
+                  Mackerel (Tuna) - GHS 12.00
+                </option>
+                <option value="Herring (Keta School Boys) - GHS 10.00">
+                  Herring (Keta School Boys) - GHS 10.00
+                </option>
+                <option value="Sardines - GHS 8.00">
+                  Sardines - GHS 8.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Regular Meat">
+                <option value="Beef (Cow Meat) - GHS 15.00">
+                  Beef (Cow Meat) - GHS 15.00
+                </option>
+                <option value="Goat Meat - GHS 18.00">
+                  Goat Meat - GHS 18.00
+                </option>
+                <option value="Lamb (Sheep Meat) - GHS 20.00">
+                  Lamb (Sheep Meat) - GHS 20.00
+                </option>
+                <option value="Chicken (Local) - GHS 12.00">
+                  Chicken (Local) - GHS 12.00
+                </option>
+                <option value="Chicken (Broiler) - GHS 10.00">
+                  Chicken (Broiler) - GHS 10.00
+                </option>
+                <option value="Turkey - GHS 25.00">Turkey - GHS 25.00</option>
+                <option value="Duck - GHS 22.00">Duck - GHS 22.00</option>
+              </optgroup>
+
+              <optgroup label="Bush Meat (Nkwanom)">
+                <option value="Grasscutter (Akrantie) - GHS 35.00">
+                  Grasscutter (Akrantie) - GHS 35.00
+                </option>
+                <option value="Giant Rat (Kusie) - GHS 30.00">
+                  Giant Rat (Kusie) - GHS 30.00
+                </option>
+                <option value="Antelope (Adowa) - GHS 45.00">
+                  Antelope (Adowa) - GHS 45.00
+                </option>
+                <option value="Deer - GHS 40.00">Deer - GHS 40.00</option>
+                <option value="Bush Pig - GHS 28.00">
+                  Bush Pig - GHS 28.00
+                </option>
+                <option value="Rabbit - GHS 25.00">Rabbit - GHS 25.00</option>
+              </optgroup>
+
+              <optgroup label="Seafood">
+                <option value="Prawns (Large) - GHS 45.00">
+                  Prawns (Large) - GHS 45.00
+                </option>
+                <option value="Shrimps (Small) - GHS 30.00">
+                  Shrimps (Small) - GHS 30.00
+                </option>
+                <option value="Crab (Large) - GHS 15.00">
+                  Crab (Large) - GHS 15.00
+                </option>
+                <option value="Lobster - GHS 60.00">
+                  Lobster - GHS 60.00
+                </option>
+                <option value="Octopus - GHS 35.00">
+                  Octopus - GHS 35.00
+                </option>
+                <option value="Squid - GHS 28.00">Squid - GHS 28.00</option>
+                <option value="Mussels - GHS 20.00">
+                  Mussels - GHS 20.00
+                </option>
+                <option value="Oysters - GHS 25.00">
+                  Oysters - GHS 25.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Ghanaian Specialties">
+                <option value="Snail (Large) - GHS 25.00">
+                  Snail (Large) - GHS 25.00
+                </option>
+                <option value="Snail (Medium) - GHS 18.00">
+                  Snail (Medium) - GHS 18.00
+                </option>
+                <option value="Wele (Cow Skin) - GHS 8.00">
+                  Wele (Cow Skin) - GHS 8.00
+                </option>
+                <option value="Kɔkɔɔte (Turkey Berry) - GHS 5.00">
+                  Kɔkɔɔte (Turkey Berry) - GHS 5.00
+                </option>
+                <option value="Garden Egg Stew Base - GHS 6.00">
+                  Garden Egg Stew Base - GHS 6.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Organ Meals">
+                <option value="Liver (Beef) - GHS 12.00">
+                  Liver (Beef) - GHS 12.00
+                </option>
+                <option value="Kidney (Beef) - GHS 10.00">
+                  Kidney (Beef) - GHS 10.00
+                </option>
+                <option value="Tripe (Beef) - GHS 8.00">
+                  Tripe (Beef) - GHS 8.00
+                </option>
+                <option value="Tongue (Beef) - GHS 15.00">
+                  Tongue (Beef) - GHS 15.00
+                </option>
+                <option value="Heart (Chicken) - GHS 5.00">
+                  Heart (Chicken) - GHS 5.00
+                </option>
+                <option value="Gizzard (Chicken) - GHS 7.00">
+                  Gizzard (Chicken) - GHS 7.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Vegetarian Options">
+                <option value="Egg (Boiled/Fried) - GHS 3.00">
+                  Egg (Boiled/Fried) - GHS 3.00
+                </option>
+                <option value="Agor (Beancake) - GHS 5.00">
+                  Agor (Beancake) - GHS 5.00
+                </option>
+                <option value="Tofu - GHS 8.00">Tofu - GHS 8.00</option>
+                <option value="Tempeh - GHS 10.00">Tempeh - GHS 10.00</option>
+                <option value="Mushrooms - GHS 12.00">
+                  Mushrooms - GHS 12.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Sausages & Processed">
+                <option value="Beef Sausages - GHS 15.00">
+                  Beef Sausages - GHS 15.00
+                </option>
+                <option value="Chicken Sausages - GHS 12.00">
+                  Chicken Sausages - GHS 12.00
+                </option>
+                <option value="Hot Dogs - GHS 8.00">
+                  Hot Dogs - GHS 8.00
+                </option>
+                <option value="Bacon - GHS 20.00">Bacon - GHS 20.00</option>
+                <option value="Ham - GHS 18.00">Ham - GHS 18.00</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div class="input-boxs my-4">
+            <label for="Accompaniment">Accompaniment</label>
+            <select name="Accompaniment" id="Accompaniment" title="Accompaniment" class="input-fill" required>
+              <option value="" disabled selected>Select Accompaniment</option>
+              <option value="Salad With Cream - GHS 12.00">
+                Salad With Cream - GHS 12.00
+              </option>
+              <option value="Salad - GHS 10.00">Salad - GHS 10.00</option>
+              <option value="Gari - GHS 5.00">Gari - GHS 5.00</option>
+              <option value="Noodles - GHS 8.00">Noodles - GHS 8.00</option>
+              <option value="Okro - GHS 5.00">Okro - GHS 5.00</option>
+            </select>
+          </div>
+
+          <div class="input-boxs my-4">
+            <label for="Drinks">Drinks</label>
+            <select id="Drinks" name="Drinks" title="Drinks" class="input-fill" required>
+              <option value="" disabled selected>Select Drink</option>
+
+              <optgroup label="Water">
+                <option value="Bottled Water 500ml - GHS 5.00">
+                  Bottled Water 500ml - GHS 5.00
+                </option>
+                <option value="Bottled Water 1L - GHS 8.00">
+                  Bottled Water 1L - GHS 8.00
+                </option>
+                <option value="Voltic Water 750ml - GHS 6.00">
+                  Voltic Water 750ml - GHS 6.00
+                </option>
+                <option value="Sachet Water (Pure Water) - GHS 1.00">
+                  Sachet Water (Pure Water) - GHS 1.00
+                </option>
+                <option value="Sparkling Water 330ml - GHS 12.00">
+                  Sparkling Water 330ml - GHS 12.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Soft Drinks (Carbonated)">
+                <option value="Coca Cola 300ml - GHS 10.00">
+                  Coca Cola 300ml - GHS 10.00
+                </option>
+                <option value="Fanta 300ml - GHS 10.00">
+                  Fanta 300ml - GHS 10.00
+                </option>
+                <option value="Sprite 300ml - GHS 10.00">
+                  Sprite 300ml - GHS 10.00
+                </option>
+                <option value="Pepsi 300ml - GHS 10.00">
+                  Pepsi 300ml - GHS 10.00
+                </option>
+                <option value="Mirinda 300ml - GHS 10.00">
+                  Mirinda 300ml - GHS 10.00
+                </option>
+                <option value="Maltina 330ml - GHS 12.00">
+                  Maltina 330ml - GHS 12.00
+                </option>
+                <option value="Schweppes 300ml - GHS 11.00">
+                  Schweppes 300ml - GHS 11.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Local & Natural Drinks">
+                <option value="Asaana (Fermented Corn Drink) - GHS 15.00">
+                  Asaana (Fermented Corn Drink) - GHS 15.00
+                </option>
+                <option value="Sobolo (Hibiscus Drink) - GHS 18.00">
+                  Sobolo (Hibiscus Drink) - GHS 18.00
+                </option>
+                <option value="Lamugin (Ginger Drink) - GHS 20.00">
+                  Lamugin (Ginger Drink) - GHS 20.00
+                </option>
+                <option value="Palm Wine (Fresh) - GHS 25.00">
+                  Palm Wine (Fresh) - GHS 25.00
+                </option>
+                <option value="Bissap Juice - GHS 18.00">
+                  Bissap Juice - GHS 18.00
+                </option>
+                <option value="Baobab Juice - GHS 22.00">
+                  Baobab Juice - GHS 22.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Fruit Juices & Smoothies">
+                <option value="Fresh Orange Juice - GHS 25.00">
+                  Fresh Orange Juice - GHS 25.00
+                </option>
+                <option value="Fresh Pineapple Juice - GHS 22.00">
+                  Fresh Pineapple Juice - GHS 22.00
+                </option>
+                <option value="Fresh Mango Juice - GHS 25.00">
+                  Fresh Mango Juice - GHS 25.00
+                </option>
+                <option value="Mixed Fruit Smoothie - GHS 30.00">
+                  Mixed Fruit Smoothie - GHS 30.00
+                </option>
+                <option value="Watermelon Juice - GHS 20.00">
+                  Watermelon Juice - GHS 20.00
+                </option>
+                <option value="Avocado Smoothie - GHS 28.00">
+                  Avocado Smoothie - GHS 28.00
+                </option>
+                <option value="Tropical Blend Juice - GHS 25.00">
+                  Tropical Blend Juice - GHS 25.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Energy & Malt Drinks">
+                <option value="Club Malta 330ml - GHS 12.00">
+                  Club Malta 330ml - GHS 12.00
+                </option>
+                <option value="Malta Guinness 330ml - GHS 12.00">
+                  Malta Guinness 330ml - GHS 12.00
+                </option>
+                <option value="Beta Malt 330ml - GHS 12.00">
+                  Beta Malt 330ml - GHS 12.00
+                </option>
+                <option value="Red Bull 250ml - GHS 25.00">
+                  Red Bull 250ml - GHS 25.00
+                </option>
+                <option value="Monster Energy 500ml - GHS 30.00">
+                  Monster Energy 500ml - GHS 30.00
+                </option>
+                <option value="Lucozade Boost 330ml - GHS 15.00">
+                  Lucozade Boost 330ml - GHS 15.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Beers">
+                <option value="Club Beer 500ml - GHS 18.00">
+                  Club Beer 500ml - GHS 18.00
+                </option>
+                <option value="Star Beer 500ml - GHS 18.00">
+                  Star Beer 500ml - GHS 18.00
+                </option>
+                <option value="Guinness 500ml - GHS 20.00">
+                  Guinness 500ml - GHS 20.00
+                </option>
+                <option value="Hero Beer 500ml - GHS 16.00">
+                  Hero Beer 500ml - GHS 16.00
+                </option>
+                <option value="Stone Beer 500ml - GHS 17.00">
+                  Stone Beer 500ml - GHS 17.00
+                </option>
+                <option value="Eagle Lager 500ml - GHS 18.00">
+                  Eagle Lager 500ml - GHS 18.00
+                </option>
+                <option value="Heineken 330ml - GHS 22.00">
+                  Heineken 330ml - GHS 22.00
+                </option>
+                <option value="Desperados 330ml - GHS 25.00">
+                  Desperados 330ml - GHS 25.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Spirits & Liquor">
+                <option value="Akpeteshie (Local Gin) - GHS 15.00">
+                  Akpeteshie (Local Gin) - GHS 15.00
+                </option>
+                <option value="Alomo Bitters - GHS 20.00">
+                  Alomo Bitters - GHS 20.00
+                </option>
+                <option value="Kasapreko Bitters - GHS 22.00">
+                  Kasapreko Bitters - GHS 22.00
+                </option>
+                <option value="Ogyama Bitters - GHS 18.00">
+                  Ogyama Bitters - GHS 18.00
+                </option>
+                <option value="Smirnoff Vodka 50ml - GHS 25.00">
+                  Smirnoff Vodka 50ml - GHS 25.00
+                </option>
+                <option value="Gordon's Gin 50ml - GHS 28.00">
+                  Gordon's Gin 50ml - GHS 28.00
+                </option>
+                <option value="Jameson Whiskey 50ml - GHS 35.00">
+                  Jameson Whiskey 50ml - GHS 35.00
+                </option>
+                <option value="Johnnie Walker 50ml - GHS 40.00">
+                  Johnnie Walker 50ml - GHS 40.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Wines">
+                <option value="Red Wine (Glass) - GHS 35.00">
+                  Red Wine (Glass) - GHS 35.00
+                </option>
+                <option value="White Wine (Glass) - GHS 35.00">
+                  White Wine (Glass) - GHS 35.00
+                </option>
+                <option value="Rosé Wine (Glass) - GHS 38.00">
+                  Rosé Wine (Glass) - GHS 38.00
+                </option>
+                <option value="Sparkling Wine (Glass) - GHS 45.00">
+                  Sparkling Wine (Glass) - GHS 45.00
+                </option>
+                <option value="Four Cousins 750ml - GHS 120.00">
+                  Four Cousins 750ml - GHS 120.00
+                </option>
+                <option value="Namaqua Wine 750ml - GHS 100.00">
+                  Namaqua Wine 750ml - GHS 100.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Hot Beverages">
+                <option value="Coffee (Local) - GHS 15.00">
+                  Coffee (Local) - GHS 15.00
+                </option>
+                <option value="Cappuccino - GHS 25.00">
+                  Cappuccino - GHS 25.00
+                </option>
+                <option value="Latte - GHS 28.00">Latte - GHS 28.00</option>
+                <option value="Espresso - GHS 20.00">
+                  Espresso - GHS 20.00
+                </option>
+                <option value="Tea (Local) - GHS 12.00">
+                  Tea (Local) - GHS 12.00
+                </option>
+                <option value="Green Tea - GHS 15.00">
+                  Green Tea - GHS 15.00
+                </option>
+                <option value="Herbal Tea - GHS 18.00">
+                  Herbal Tea - GHS 18.00
+                </option>
+                <option value="Hot Chocolate - GHS 22.00">
+                  Hot Chocolate - GHS 22.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Packaged Juices">
+                <option value="Peak Milk 400ml - GHS 25.00">
+                  Peak Milk 400ml - GHS 25.00
+                </option>
+                <option value="Dano Milk 500ml - GHS 18.00">
+                  Dano Milk 500ml - GHS 18.00
+                </option>
+                <option value="Yo! Fruit Juice 1L - GHS 35.00">
+                  Yo! Fruit Juice 1L - GHS 35.00
+                </option>
+                <option value="Chi Exotic 500ml - GHS 20.00">
+                  Chi Exotic 500ml - GHS 20.00
+                </option>
+                <option value="Capri-Sun 330ml - GHS 15.00">
+                  Capri-Sun 330ml - GHS 15.00
+                </option>
+                <option value="Ribena 330ml - GHS 18.00">
+                  Ribena 330ml - GHS 18.00
+                </option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div class="input-boxs my-4">
+            <label for="Packaging">Packaging</label>
+            <select id="Packaging" name="Packaging" title="Packaging" class="input-fill" required>
+              <option value="" disabled selected>Select Packaging</option>
+
+              <optgroup label="Basic Packaging">
+                <option value="Paper Bag (Small) - GHS 3.00">
+                  Paper Bag (Small) - GHS 3.00
+                </option>
+                <option value="Paper Bag (Large) - GHS 5.00">
+                  Paper Bag (Large) - GHS 5.00
+                </option>
+                <option value="Plastic Container (Small) - GHS 4.00">
+                  Plastic Container (Small) - GHS 4.00
+                </option>
+                <option value="Plastic Container (Large) - GHS 6.00">
+                  Plastic Container (Large) - GHS 6.00
+                </option>
+                <option value="Poly Bag - GHS 2.00">
+                  Poly Bag - GHS 2.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Specialty Food Containers">
+                <option value="Soup Bowl with Cover - GHS 8.00">
+                  Soup Bowl with Cover - GHS 8.00
+                </option>
+                <option value="Compartment Tray (3-section) - GHS 10.00">
+                  Compartment Tray (3-section) - GHS 10.00
+                </option>
+                <option value="Compartment Tray (4-section) - GHS 12.00">
+                  Compartment Tray (4-section) - GHS 12.00
+                </option>
+                <option value="Rice Box - GHS 7.00">
+                  Rice Box - GHS 7.00
+                </option>
+                <option value="Banku/Fufu Container - GHS 9.00">
+                  Banku/Fufu Container - GHS 9.00
+                </option>
+                <option value="Salad Box - GHS 6.00">
+                  Salad Box - GHS 6.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Traditional Ghanaian Packaging">
+                <option value="Asanka (Clay Bowl) - GHS 25.00">
+                  Asanka (Clay Bowl) - GHS 25.00
+                </option>
+                <option value="Aburowa (Traditional Basket) - GHS 30.00">
+                  Aburowa (Traditional Basket) - GHS 30.00
+                </option>
+                <option value="Enamel Bowl Set - GHS 35.00">
+                  Enamel Bowl Set - GHS 35.00
+                </option>
+                <option value="Calabash Bowl - GHS 28.00">
+                  Calabash Bowl - GHS 28.00
+                </option>
+                <option value="Woven Mat Set - GHS 40.00">
+                  Woven Mat Set - GHS 40.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Premium & VIP Packaging">
+                <option value="VIP Wooden Box - GHS 50.00">
+                  VIP Wooden Box - GHS 50.00
+                </option>
+                <option value="Premium Thermal Bag - GHS 35.00">
+                  Premium Thermal Bag - GHS 35.00
+                </option>
+                <option value="Insulated Food Carrier - GHS 45.00">
+                  Insulated Food Carrier - GHS 45.00
+                </option>
+                <option value="Bamboo Lunch Set - GHS 38.00">
+                  Bamboo Lunch Set - GHS 38.00
+                </option>
+                <option value="Stainless Steel Tiffin - GHS 60.00">
+                  Stainless Steel Tiffin - GHS 60.00
+                </option>
+                <option value="Glass Container Set - GHS 55.00">
+                  Glass Container Set - GHS 55.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Eco-Friendly Packaging">
+                <option value="Biodegradable Box - GHS 12.00">
+                  Biodegradable Box - GHS 12.00
+                </option>
+                <option value="Palm Leaf Container - GHS 15.00">
+                  Palm Leaf Container - GHS 15.00
+                </option>
+                <option value="Sugarcane Fiber Box - GHS 14.00">
+                  Sugarcane Fiber Box - GHS 14.00
+                </option>
+                <option value="Recycled Paper Bag - GHS 8.00">
+                  Recycled Paper Bag - GHS 8.00
+                </option>
+                <option value="Cornstarch Container - GHS 16.00">
+                  Cornstarch Container - GHS 16.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Bulk & Family Packaging">
+                <option value="Family Pack (Large Tray) - GHS 25.00">
+                  Family Pack (Large Tray) - GHS 25.00
+                </option>
+                <option value="Party Pack (6-section) - GHS 40.00">
+                  Party Pack (6-section) - GHS 40.00
+                </option>
+                <option value="Catering Size Container - GHS 30.00">
+                  Catering Size Container - GHS 30.00
+                </option>
+                <option value="Insulated Cooler Bag - GHS 55.00">
+                  Insulated Cooler Bag - GHS 55.00
+                </option>
+                <option value="Large Thermal Box - GHS 65.00">
+                  Large Thermal Box - GHS 65.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Special Occasion Packaging">
+                <option value="Anniversary Special Pack - GHS 75.00">
+                  Anniversary Special Pack - GHS 75.00
+                </option>
+                <option value="Birthday Celebration Box - GHS 65.00">
+                  Birthday Celebration Box - GHS 65.00
+                </option>
+                <option value="Valentine's Love Pack - GHS 80.00">
+                  Valentine's Love Pack - GHS 80.00
+                </option>
+                <option value="Christmas Holiday Box - GHS 70.00">
+                  Christmas Holiday Box - GHS 70.00
+                </option>
+                <option value="Corporate Gift Pack - GHS 90.00">
+                  Corporate Gift Pack - GHS 90.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Add-on Accessories">
+                <option value="Cutlery Set (Fork & Spoon) - GHS 5.00">
+                  Cutlery Set (Fork & Spoon) - GHS 5.00
+                </option>
+                <option value="Premium Cutlery Set - GHS 8.00">
+                  Premium Cutlery Set - GHS 8.00
+                </option>
+                <option value="Napkins (Pack of 5) - GHS 3.00">
+                  Napkins (Pack of 5) - GHS 3.00
+                </option>
+                <option value="Wet Wipes - GHS 4.00">
+                  Wet Wipes - GHS 4.00
+                </option>
+                <option value="Sauce Containers (2pcs) - GHS 6.00">
+                  Sauce Containers (2pcs) - GHS 6.00
+                </option>
+                <option value="Drink Holder - GHS 7.00">
+                  Drink Holder - GHS 7.00
+                </option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div class="input-boxs my-4">
+            <label for="Delivery">Delivery Period</label>
+            <select id="Delivery" name="Delivery" title="Delivery Period" class="input-fill" required>
+              <option value="" disabled selected>
+                Select Delivery Period
+              </option>
+
+              <optgroup label="Express Delivery">
+                <option value="Within 1 Hour - GHS 25.00">
+                  Within 1 Hour - GHS 25.00
+                </option>
+                <option value="Within 90 Minutes - GHS 20.00">
+                  Within 90 Minutes - GHS 20.00
+                </option>
+                <option value="Within 2 Hours - GHS 18.00">
+                  Within 2 Hours - GHS 18.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Same Day Delivery">
+                <option value="Today - Morning (8AM-12PM) - GHS 15.00">
+                  Today - Morning (8AM-12PM) - GHS 15.00
+                </option>
+                <option value="Today - Afternoon (12PM-4PM) - GHS 15.00">
+                  Today - Afternoon (12PM-4PM) - GHS 15.00
+                </option>
+                <option value="Today - Evening (4PM-8PM) - GHS 18.00">
+                  Today - Evening (4PM-8PM) - GHS 18.00
+                </option>
+                <option value="Today - Night (8PM-10PM) - GHS 25.00">
+                  Today - Night (8PM-10PM) - GHS 25.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Next Day Delivery">
+                <option value="Tomorrow - Morning (8AM-12PM) - GHS 12.00">
+                  Tomorrow - Morning (8AM-12PM) - GHS 12.00
+                </option>
+                <option value="Tomorrow - Afternoon (12PM-4PM) - GHS 12.00">
+                  Tomorrow - Afternoon (12PM-4PM) - GHS 12.00
+                </option>
+                <option value="Tomorrow - Evening (4PM-8PM) - GHS 15.00">
+                  Tomorrow - Evening (4PM-8PM) - GHS 15.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Scheduled Delivery">
+                <option value="Within 3 Days - GHS 10.00">
+                  Within 3 Days - GHS 10.00
+                </option>
+                <option value="Within 5 Days - GHS 8.00">
+                  Within 5 Days - GHS 8.00
+                </option>
+                <option value="Next Week - GHS 6.00">
+                  Next Week - GHS 6.00
+                </option>
+                <option value="Specific Date & Time - GHS 15.00">
+                  Specific Date & Time - GHS 15.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Premium Services">
+                <option value="VIP Express (45 mins) - GHS 35.00">
+                  VIP Express (45 mins) - GHS 35.00
+                </option>
+                <option value="Temperature Controlled - GHS 30.00">
+                  Temperature Controlled - GHS 30.00
+                </option>
+                <option value="Weekend Delivery - GHS 20.00">
+                  Weekend Delivery - GHS 20.00
+                </option>
+                <option value="Holiday Delivery - GHS 40.00">
+                  Holiday Delivery - GHS 40.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Free & Special Options">
+                <option value="Pickup at Restaurant - FREE">
+                  Pickup at Restaurant - FREE
+                </option>
+                <option value="Standard (3-5 days) - GHS 5.00">
+                  Standard (3-5 days) - GHS 5.00
+                </option>
+                <option value="Bulk Order Delivery - GHS 25.00">
+                  Bulk Order Delivery - GHS 25.00
+                </option>
+                <option value="Corporate Delivery - GHS 20.00">
+                  Corporate Delivery - GHS 20.00
+                </option>
+              </optgroup>
+
+              <optgroup label="Location-Based Delivery">
+                <option value="Accra Central - GHS 15.00">
+                  Accra Central - GHS 15.00
+                </option>
+                <option value="Airport & Environs - GHS 25.00">
+                  Airport & Environs - GHS 25.00
+                </option>
+                <option value="East Legon & Trasacco - GHS 20.00">
+                  East Legon & Trasacco - GHS 20.00
+                </option>
+                <option value="Tema Community - GHS 30.00">
+                  Tema Community - GHS 30.00
+                </option>
+                <option value="Kasoa & Winneba - GHS 40.00">
+                  Kasoa & Winneba - GHS 40.00
+                </option>
+                <option value="Outside Greater Accra - GHS 60.00">
+                  Outside Greater Accra - GHS 60.00
+                </option>
+              </optgroup>
+            </select>
+          </div>
+
+          <!-- Place this div just before the closing </section> tag of your food-selection section -->
+          <div class="input-boxs my-4" id="total-cost-box" style="text-align: center">
+            <h3>
+              Total Cost:
+              <span id="total-cost" style="color: #fff">GHS 0.00</span>
+            </h3>
+
+            <script>
+              // Total Cost
+              // Utility to extract price from value string (e.g., "Fufu with/ Light Soup - GHS 6.00")
+              function extractPrice(val) {
+                if (!val) return 0;
+                var match = val.match(/GHS ([\d.]+)/);
+                return match ? parseFloat(match[1]) : 0;
+              }
+
+              function do_total() {
+                var total = 0;
+
+                // Main Dish
+                var main = document.getElementById("main_dishes");
+                if (main && main.value) total += extractPrice(main.value);
+
+                // Protein
+                var protein = document.getElementById("protein");
+                if (protein && protein.value)
+                  total += extractPrice(protein.value);
+
+                // Extra Protein
+                var protein2 = document.getElementById("Protein2");
+                if (protein2 && protein2.value)
+                  total += extractPrice(protein2.value);
+
+                // Accompaniment
+                var acc = document.getElementById("Accompaniment");
+                if (acc && acc.value) total += extractPrice(acc.value);
+
+                // Drinks
+                var drink = document.getElementById("Drinks");
+                if (drink && drink.value) total += extractPrice(drink.value);
+
+                // Packaging
+                var packaging = document.getElementById("Packaging");
+                if (packaging && packaging.value)
+                  total += extractPrice(packaging.value);
+
+                // Delivery
+                var delivery = document.getElementById("Delivery");
+                if (delivery && delivery.value)
+                  total += extractPrice(delivery.value);
+
+                // Show total
+                document.getElementById("total-cost").textContent =
+                  "GHS " + total.toFixed(2);
+                document.getElementById("amount").value = total.toFixed(2);
+              }
+
+              // Attach do_total to all relevant selects
+              document.addEventListener("DOMContentLoaded", function () {
+                [
+                  "main_dishes",
+                  "protein",
+                  "Protein2",
+                  "Accompaniment",
+                  "Drinks",
+                  "Packaging",
+                  "Delivery",
+                ].forEach(function (id) {
+                  var el = document.getElementById(id);
+                  if (el) el.addEventListener("change", do_total);
                 });
-              </script>
-            </div>
-            <button style="background: rgb(255, 27, 27); color: #fff" style="background: rgb(0, 119, 255); color: #fff"
-              type="button" id="pay-now-btn" class="btn btn-lg mt-3">
-              Pay Now
-            </button>
-            <input type="hidden" id="amount" name="Amount" value="0" />
+
+                // Also update total if user adds a custom option via Enter key
+                var observer = new MutationObserver(do_total);
+                [
+                  "main_dishes",
+                  "protein",
+                  "Protein2",
+                  "Accompaniment",
+                  "Drinks",
+                  "Packaging",
+                  "Delivery",
+                ].forEach(function (id) {
+                  var el = document.getElementById(id);
+                  if (el) observer.observe(el, { childList: true });
+                });
+
+                // Initial calculation
+                do_total();
+              });
+            </script>
           </div>
-        </form>
-      </div>
-    </section>
-    <!-- Food Selection Categories End -->
-    <!-- Chat Us On Whatsapp -->
-    <a href="https://api.whatsapp.com/send?phone=233549175604&text=Hello%20Isaacski%20Restaurant" class="whatsapp-chat"
-      target="_blank" rel="noopener noreferrer">
-      <i class="fa fa-whatsapp" aria-hidden="true"></i>
-    </a>
-    <!--====-->
+          <button style="background: rgb(255, 27, 27); color: #fff" type="button" id="pay-now-btn"
+            class="btn btn-lg mt-3">
+            Pay Now
+          </button>
+          <input type="hidden" id="amount" name="Amount" value="0" />
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- Food Selection Categories End -->
+  <!-- Chat Us On Whatsapp -->
+  <a href="https://api.whatsapp.com/send?phone=233549175604&text=Hello%20Isaacski%20Restaurant" class="whatsapp-chat"
+    target="_blank" rel="noopener noreferrer">
+    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+  </a>
+  <!--===============================================================================================-->
 
-    <script>
-      // Initialize EmailJS
-      (function () {
-        emailjs.init("-WX6aDIktn3nAw81E");
-      })();
+  <script>
+    // Initialize EmailJS
+    (function () {
+      emailjs.init("-WX6aDIktn3nAw81E");
+    })();
 
-      // Total Cost Calculation
-      function extractPrice(val) {
-        if (!val) return 0;
-        var match = val.match(/GHS ([\d.]+)/);
-        return match ? parseFloat(match[1]) : 0;
-      }
+    // Total Cost Calculation
+    function extractPrice(val) {
+      if (!val) return 0;
+      var match = val.match(/GHS ([\d.]+)/);
+      return match ? parseFloat(match[1]) : 0;
+    }
 
-      function do_total() {
-        var total = 0;
+    function do_total() {
+      var total = 0;
 
-        // Main Dish
-        var main = document.getElementById("main_dishes");
-        if (main && main.value) total += extractPrice(main.value);
+      // Main Dish
+      var main = document.getElementById("main_dishes");
+      if (main && main.value) total += extractPrice(main.value);
 
-        // Protein
-        var protein = document.getElementById("protein");
-        if (protein && protein.value) total += extractPrice(protein.value);
+      // Protein
+      var protein = document.getElementById("protein");
+      if (protein && protein.value) total += extractPrice(protein.value);
 
-        // Extra Protein
-        var protein2 = document.getElementById("protein2");
-        if (protein2 && protein2.value) total += extractPrice(protein2.value);
+      // Extra Protein
+      var protein2 = document.getElementById("protein2");
+      if (protein2 && protein2.value) total += extractPrice(protein2.value);
 
-        // Accompaniment
-        var acc = document.getElementById("Accompaniment");
-        if (acc && acc.value) total += extractPrice(acc.value);
+      // Accompaniment
+      var acc = document.getElementById("Accompaniment");
+      if (acc && acc.value) total += extractPrice(acc.value);
 
-        // Drinks
-        var drink = document.getElementById("Drinks");
-        if (drink && drink.value) total += extractPrice(drink.value);
+      // Drinks
+      var drink = document.getElementById("Drinks");
+      if (drink && drink.value) total += extractPrice(drink.value);
 
-        // Packaging
-        var packaging = document.getElementById("Packaging");
-        if (packaging && packaging.value)
-          total += extractPrice(packaging.value);
+      // Packaging
+      var packaging = document.getElementById("Packaging");
+      if (packaging && packaging.value)
+        total += extractPrice(packaging.value);
 
-        // Delivery
-        var delivery = document.getElementById("Delivery");
-        if (delivery && delivery.value) total += extractPrice(delivery.value);
+      // Delivery
+      var delivery = document.getElementById("Delivery");
+      if (delivery && delivery.value) total += extractPrice(delivery.value);
 
-        // Show total
-        document.getElementById("total-cost").textContent =
-          "GHS " + total.toFixed(2);
-        document.getElementById("amount").value = total.toFixed(2);
-      }
+      // Show total
+      document.getElementById("total-cost").textContent =
+        "GHS " + total.toFixed(2);
+      document.getElementById("amount").value = total.toFixed(2);
+    }
 
-      // Attach do_total to all relevant selects
-      document.addEventListener("DOMContentLoaded", function () {
-        [
-          "main_dishes",
-          "protein",
-          "protein2",
-          "Accompaniment",
-          "Drinks",
-          "Packaging",
-          "Delivery",
-        ].forEach(function (id) {
-          var el = document.getElementById(id);
-          if (el) el.addEventListener("change", do_total);
-        });
-
-        // Initial calculation
-        do_total();
+    // Attach do_total to all relevant selects
+    document.addEventListener("DOMContentLoaded", function () {
+      [
+        "main_dishes",
+        "protein",
+        "protein2",
+        "Accompaniment",
+        "Drinks",
+        "Packaging",
+        "Delivery",
+      ].forEach(function (id) {
+        var el = document.getElementById(id);
+        if (el) el.addEventListener("change", do_total);
       });
 
-      // Save order to Firebase - FIXED VERSION
-      async function saveOrderToFirebase(orderData, orderId, paymentReference) {
-        try {
-          console.log("💾 Starting Firebase save for order:", orderId);
+      // Initial calculation
+      do_total();
+    });
 
-          // Check if Firebase is initialized
-          if (!db) {
-            throw new Error("Firebase not initialized");
-          }
+    // Save order to Firebase - FIXED VERSION
+    async function saveOrderToFirebase(orderData, orderId, paymentReference) {
+      try {
+        console.log("💾 Starting Firebase save for order:", orderId);
 
-          const firebaseOrderData = {
-            orderId: orderId,
-            customerName: orderData.fullname,
-            customerEmail: orderData.email,
-            customerPhone: orderData.telephone,
-            vendorLocation: orderData.vendor_location,
-            additionalNotes: orderData.message || "None",
-
-            // Order items
-            mainDish: orderData.main_dishes,
-            protein: orderData.protein,
-            extraProtein: orderData.protein2 || "None",
-            accompaniment: orderData.Accompaniment || "None",
-            drinks: orderData.Drinks || "None",
-            packaging: orderData.Packaging,
-            deliveryPeriod: orderData.Delivery,
-
-            // Payment details
-            totalAmount: parseFloat(document.getElementById("amount").value),
-            currency: "GHS",
-            paymentReference: paymentReference,
-            paymentStatus: "completed",
-            status: "pending",
-
-            // Timestamps
-            timestamp: firebase.firestore.FieldValue.serverTimestamp(),
-            orderDate: new Date().toISOString(),
-            source: "website-paystack",
-          };
-
-          console.log("📦 Order data prepared:", firebaseOrderData);
-
-          // Save to Firebase using set() with the orderId as document ID
-          await db.collection("orders").doc(orderId).set(firebaseOrderData);
-          console.log("✅ Order saved to Firebase successfully");
-          return true;
-        } catch (error) {
-          console.error("❌ Error saving order to Firebase:", error);
-          throw error;
+        // Check if Firebase is initialized
+        if (!db) {
+          throw new Error("Firebase not initialized");
         }
+
+        const firebaseOrderData = {
+          orderId: orderId,
+          customerName: orderData.fullname,
+          customerEmail: orderData.email,
+          customerPhone: orderData.telephone,
+          vendorLocation: orderData.vendor_location,
+          additionalNotes: orderData.message || "None",
+
+          // Order items
+          mainDish: orderData.main_dishes,
+          protein: orderData.protein,
+          extraProtein: orderData.protein2 || "None",
+          accompaniment: orderData.Accompaniment || "None",
+          drinks: orderData.Drinks || "None",
+          packaging: orderData.Packaging,
+          deliveryPeriod: orderData.Delivery,
+
+          // Payment details
+          totalAmount: parseFloat(document.getElementById("amount").value),
+          currency: "GHS",
+          paymentReference: paymentReference,
+          paymentStatus: "completed",
+          status: "pending",
+
+          // Timestamps
+          timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+          orderDate: new Date().toISOString(),
+          source: "website-paystack",
+        };
+
+        console.log("📦 Order data prepared:", firebaseOrderData);
+
+        // Save to Firebase using set() with the orderId as document ID
+        await db.collection("orders").doc(orderId).set(firebaseOrderData);
+        console.log("✅ Order saved to Firebase successfully");
+        return true;
+      } catch (error) {
+        console.error("❌ Error saving order to Firebase:", error);
+        throw error;
       }
+    }
 
-      // Paystack Payment with Firebase Integration - FIXED VERSION
-      document
-        .getElementById("pay-now-btn")
-        .addEventListener("click", function () {
-          const form = document.getElementById("paymentForm");
-          const formData = new FormData(form);
-          const data = {};
-          formData.forEach((value, key) => {
-            data[key] = value;
-          });
-
-          // Basic validation
-          if (
-            !data.fullname ||
-            !data.email ||
-            !data.telephone ||
-            !data.vendor_location
-          ) {
-            alert(
-              "Please fill in all required fields: Full Name, Email, Telephone, and Vendor Location."
-            );
-            return;
-          }
-
-          if (
-            !data.main_dishes ||
-            !data.protein ||
-            !data.Packaging ||
-            !data.Delivery
-          ) {
-            alert(
-              "Please select Main Dish, Protein, Packaging, and Delivery Period."
-            );
-            return;
-          }
-
-          // Get total
-          const totalText = document.getElementById("total-cost").textContent;
-          const total = totalText.replace(/[^\d.]/g, "");
-          if (!total || isNaN(parseFloat(total)) || parseFloat(total) <= 0) {
-            alert("Please select your meal to calculate total cost.");
-            return;
-          }
-
-          if (typeof PaystackPop === "undefined") {
-            alert("Paystack is not loaded. Check your internet connection.");
-            return;
-          }
-
-          // Generate order ID
-          const orderId =
-            "ORDER-" + Math.random().toString(36).substr(2, 9).toUpperCase();
-
-          console.log("🔄 Starting payment process for order:", orderId);
-
-          const handler = PaystackPop.setup({
-            key: "pk_test_daec5eba6470db795511d6c5b8b29469f938ea34",
-            email: data.email,
-            amount: parseFloat(total) * 100,
-            currency: "GHS",
-            ref: orderId,
-            metadata: {
-              custom_fields: [
-                {
-                  display_name: "Full Name",
-                  variable_name: "full_name",
-                  value: data.fullname,
-                },
-                {
-                  display_name: "Telephone",
-                  variable_name: "telephone",
-                  value: data.telephone,
-                },
-                {
-                  display_name: "Order ID",
-                  variable_name: "order_id",
-                  value: orderId,
-                },
-              ],
-            },
-            callback: function (response) {
-              console.log("💰 Payment successful:", response);
-              handlePaymentSuccess(response, data, orderId);
-            },
-            onClose: function () {
-              console.log("❌ Payment cancelled by user");
-              alert("Payment was cancelled.");
-            },
-          });
-
-          handler.openIframe();
+    // Paystack Payment with Firebase Integration - FIXED VERSION
+    document
+      .getElementById("pay-now-btn")
+      .addEventListener("click", function () {
+        const form = document.getElementById("paymentForm");
+        const formData = new FormData(form);
+        const data = {};
+        formData.forEach((value, key) => {
+          data[key] = value;
         });
 
-      async function handlePaymentSuccess(response, data, orderId) {
-        try {
-          console.log("🔄 Processing successful payment for order:", orderId);
-
-          // 1. Save to Firebase first
-          console.log("💾 Saving to Firebase...");
-          await saveOrderToFirebase(data, orderId, response.reference);
-          console.log("✅ Firebase save completed");
-
-          // 2. Send email using Email.js
-          console.log("📧 Sending email...");
-          const templateParams = {
-            fullname: data.fullname,
-            email: data.email,
-            telephone: data.telephone,
-            vendor_location: data.vendor_location,
-            message: data.message,
-            main_dishes: data.main_dishes,
-            protein: data.protein,
-            protein2: data.protein2 || "None",
-            accompaniment: data.Accompaniment || "None",
-            drinks: data.Drinks || "None",
-            packaging: data.Packaging,
-            delivery: data.Delivery,
-            total_cost: document.getElementById("total-cost").textContent,
-            order_id: orderId,
-            payment_reference: response.reference,
-            timestamp: new Date().toLocaleString(),
-          };
-
-          await emailjs.send(
-            "service_uvwuw6g",
-            "template_phvfhln",
-            templateParams
+        // Basic validation
+        if (
+          !data.fullname ||
+          !data.email ||
+          !data.telephone ||
+          !data.vendor_location
+        ) {
+          alert(
+            "Please fill in all required fields: Full Name, Email, Telephone, and Vendor Location."
           );
-          console.log("✅ Email sent successfully via Email.js");
+          return;
+        }
 
-          // 3. Format WhatsApp message
-          const whatsappMessage = `New Order Payment Successful! 💰
+        if (
+          !data.main_dishes ||
+          !data.protein ||
+          !data.Packaging ||
+          !data.Delivery
+        ) {
+          alert(
+            "Please select Main Dish, Protein, Packaging, and Delivery Period."
+          );
+          return;
+        }
+
+        // Get total
+        const totalText = document.getElementById("total-cost").textContent;
+        const total = totalText.replace(/[^\d.]/g, "");
+        if (!total || isNaN(parseFloat(total)) || parseFloat(total) <= 0) {
+          alert("Please select your meal to calculate total cost.");
+          return;
+        }
+
+        if (typeof PaystackPop === "undefined") {
+          alert("Paystack is not loaded. Check your internet connection.");
+          return;
+        }
+
+        // Generate order ID
+        const orderId =
+          "ORDER-" + Math.random().toString(36).substr(2, 9).toUpperCase();
+
+        console.log("🔄 Starting payment process for order:", orderId);
+
+        const handler = PaystackPop.setup({
+          key: "pk_test_daec5eba6470db795511d6c5b8b29469f938ea34",
+          email: data.email,
+          amount: parseFloat(total) * 100,
+          currency: "GHS",
+          ref: orderId,
+          metadata: {
+            custom_fields: [
+              {
+                display_name: "Full Name",
+                variable_name: "full_name",
+                value: data.fullname,
+              },
+              {
+                display_name: "Telephone",
+                variable_name: "telephone",
+                value: data.telephone,
+              },
+              {
+                display_name: "Order ID",
+                variable_name: "order_id",
+                value: orderId,
+              },
+            ],
+          },
+          callback: function (response) {
+            console.log("💰 Payment successful:", response);
+            handlePaymentSuccess(response, data, orderId);
+          },
+          onClose: function () {
+            console.log("❌ Payment cancelled by user");
+            alert("Payment was cancelled.");
+          },
+        });
+
+        handler.openIframe();
+      });
+
+    async function handlePaymentSuccess(response, data, orderId) {
+      try {
+        console.log("🔄 Processing successful payment for order:", orderId);
+
+        // 1. Save to Firebase first
+        console.log("💾 Saving to Firebase...");
+        await saveOrderToFirebase(data, orderId, response.reference);
+        console.log("✅ Firebase save completed");
+
+        // 2. Send email using Email.js
+        console.log("📧 Sending email...");
+        const templateParams = {
+          fullname: data.fullname,
+          email: data.email,
+          telephone: data.telephone,
+          vendor_location: data.vendor_location,
+          message: data.message,
+          main_dishes: data.main_dishes,
+          protein: data.protein,
+          protein2: data.protein2 || "None",
+          accompaniment: data.Accompaniment || "None",
+          drinks: data.Drinks || "None",
+          packaging: data.Packaging,
+          delivery: data.Delivery,
+          total_cost: document.getElementById("total-cost").textContent,
+          order_id: orderId,
+          payment_reference: response.reference,
+          timestamp: new Date().toLocaleString(),
+        };
+
+        await emailjs.send(
+          "service_uvwuw6g",
+          "template_phvfhln",
+          templateParams
+        );
+        console.log("✅ Email sent successfully via Email.js");
+
+        // 3. Format WhatsApp message
+        const whatsappMessage = `New Order Payment Successful! 💰
 Order ID: ${orderId}
 Payment Ref: ${response.reference}
 
@@ -1682,198 +1670,172 @@ Order Details:
 
 📝 Additional Notes: ${data.message || "None"}`;
 
-          const whatsappLink = `https://wa.me/233549175604?text=${encodeURIComponent(
-            whatsappMessage
-          )}`;
+        const whatsappLink = `https://wa.me/233549175604?text=${encodeURIComponent(
+          whatsappMessage
+        )}`;
 
-          // Show success message
-          alert(
-            "🎉 Order submitted successfully and payment completed! Order ID: " +
-            orderId +
-            "\n\nWhatsApp notification will open next."
-          );
+        // Show success message
+        alert(
+          "🎉 Order submitted successfully and payment completed! Order ID: " +
+          orderId +
+          "\n\nWhatsApp notification will open next."
+        );
 
-          // Reset form
-          document.getElementById("paymentForm").reset();
-          document.getElementById("total-cost").textContent = "GHS 0.00";
+        // Reset form
+        document.getElementById("paymentForm").reset();
+        document.getElementById("total-cost").textContent = "GHS 0.00";
 
-          // Open WhatsApp after a short delay
-          setTimeout(() => {
-            window.open(whatsappLink, "_blank");
-          }, 1000);
-        } catch (error) {
-          console.error("❌ Error during order processing:", error);
-          alert(
-            "Payment was successful but there was an issue processing your order. Please contact us with your Order ID: " +
-            orderId +
-            "\n\nError: " +
-            error.message
-          );
-        }
+        // Open WhatsApp after a short delay
+        setTimeout(() => {
+          window.open(whatsappLink, "_blank");
+        }, 1000);
+      } catch (error) {
+        console.error("❌ Error during order processing:", error);
+        alert(
+          "Payment was successful but there was an issue processing your order. Please contact us with your Order ID: " +
+          orderId +
+          "\n\nError: " +
+          error.message
+        );
       }
+    }
 
-      // Debug function to test Firebase directly
-      window.testFirebaseSave = async function () {
-        const testOrder = {
-          fullname: "Test Customer " + new Date().toLocaleTimeString(),
-          email: "test@example.com",
-          telephone: "1234567890",
-          vendor_location: "central-market",
-          message: "Test order from debug function",
-          main_dishes: "Jollof - GHS 20.00",
-          protein: "Chicken - GHS 7.00",
-          protein2: "None",
-          Accompaniment: "None",
-          Drinks: "None",
-          Packaging: "TakeAway Pack - GHS 2.00",
-          Delivery: "Today - GHS 6.50",
-        };
-
-        const testOrderId =
-          "TEST-" + Math.random().toString(36).substr(2, 9).toUpperCase();
-
-        try {
-          await saveOrderToFirebase(testOrder, testOrderId, "TEST-REF");
-          alert("✅ Test order saved successfully! ID: " + testOrderId);
-        } catch (error) {
-          alert("❌ Test failed: " + error.message);
-        }
+    // Debug function to test Firebase directly
+    window.testFirebaseSave = async function () {
+      const testOrder = {
+        fullname: "Test Customer " + new Date().toLocaleTimeString(),
+        email: "test@example.com",
+        telephone: "1234567890",
+        vendor_location: "central-market",
+        message: "Test order from debug function",
+        main_dishes: "Jollof - GHS 20.00",
+        protein: "Chicken - GHS 7.00",
+        protein2: "None",
+        Accompaniment: "None",
+        Drinks: "None",
+        Packaging: "TakeAway Pack - GHS 2.00",
+        Delivery: "Today - GHS 6.50",
       };
-    </script>
 
-    <!-- link area start -->
-    <div class="news_link">
-      <div class="container">
-        <div class="order-content">
-          <div class="content-logo">
-            <a href="index.html">
-              <img src="assets/images/logo/logo.png" alt="logo" />
-            </a>
-          </div>
-          <div class="content-link">
-            <ul>
+      const testOrderId =
+        "TEST-" + Math.random().toString(36).substr(2, 9).toUpperCase();
+
+      try {
+        await saveOrderToFirebase(testOrder, testOrderId, "TEST-REF");
+        alert("✅ Test order saved successfully! ID: " + testOrderId);
+      } catch (error) {
+        alert("❌ Test failed: " + error.message);
+      }
+    };
+  </script>
+
+  <!-- footer area start -->
+  <footer class="padding-tb" style="background-image: url(assets/css/bg-image/footer-bg.jpg)">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-col">
+          <div class="contant-col">
+            <h5>Contact info</h5>
+            <p>
+              Mawusi Restaurant is a culinary haven where passion meets plate.
+              Established with a vision to redefine dining experiences, we
+              pride ourselves on serving delectable dishes crafted from the
+              freshest, locally sourced ingredients.
+            </p>
+            <label>Follow Us:</label>
+            <ul class="social-handles">
               <li>
-                <h5>Delicious Food & Fast Delivery</h5>
+                <a href="#" target="_blank"><i class="bxl bx-facebook"></i></a>
               </li>
               <li>
-                <a href="order-food.html" class="food-btn style-2">
-                  <span>Order Now</span>
-                </a>
+                <a href="#" target="_blank"><i class="bxl bx-tiktok"></i></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><i class="bxl bx-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#" target="_blank"><i class="bxl bx-whatsapp"></i></a>
               </li>
             </ul>
           </div>
         </div>
+        <div class="footer-col">
+          <div class="useful-links">
+            <h5>Support Links</h5>
+            <div class="box">
+              <a href="coming-soon.html">Coming Soon</a>
+              <a href="privacy.html">Privacy Policy</a>
+              <a href="terms.html">Terms & Conditions</a>
+              <a href="faqs.html">FAQs</a>
+              <a href="blog.html">Blog</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <div class="useful-links">
+            <h5>Useful Links</h5>
+            <div class="box">
+              <a href="index.html">Home</a>
+              <a href="about.html">About Us</a>
+              <a href="menu-card.html">Menu</a>
+              <a href="reserv.html">Reservations</a>
+              <a href="order-food.html">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <div class="contant-info">
+            <h5>Open Hours</h5>
+            <p><strong>Mon - Fri</strong>: 9:00 AM - 10:00 PM</p>
+            <p><strong>Sat - Sun</strong>: 10:00 AM - 11:00 PM</p>
+          </div>
+        </div>
       </div>
     </div>
-    <!-- link area ends -->
+  </footer>
+  <!-- footer area ends -->
 
-    <!-- footer area start -->
-    <footer class="padding-tb" style="background-image: url(assets/css/bg-image/footer-bg.jpg)">
-      <div class="container">
-        <div class="footer-row">
-          <div class="footer-col">
-            <div class="contant-col">
-              <h5>Contact info</h5>
-              <p>
-                Mawusi Restaurant is a culinary haven where passion meets plate.
-                Established with a vision to redefine dining experiences, we
-                pride ourselves on serving delectable dishes crafted from the
-                freshest, locally sourced ingredients.
+  <!-- footer menu start -->
+  <div class="fotter-header">
+    <header>
+      <div class="footer-bg">
+        <div class="container">
+          <div class="mt-3">
+            <div class="header-logo">
+              <p class="text-center">
+                &copy; 2025 Mawusi Restaurant. All Rights Reserved. Designed
+                by
+                <a href="https://www.isaacskiwebdev.com/" target="_blank">Isaacski Web Dev</a>
               </p>
-              <label>Follow Us:</label>
-              <ul class="social-handles">
-                <li>
-                  <a href="#" target="_blank"><i class="bxl bx-facebook"></i></a>
-                </li>
-                <li>
-                  <a href="#" target="_blank"><i class="bxl bx-tiktok"></i></a>
-                </li>
-                <li>
-                  <a href="#" target="_blank"><i class="bxl bx-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#" target="_blank"><i class="bxl bx-whatsapp"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="footer-col">
-            <div class="useful-links">
-              <h5>Support Links</h5>
-              <div class="box">
-                <a href="coming-soon.html">Coming Soon</a>
-                <a href="privacy.html">Privacy Policy</a>
-                <a href="terms.html">Terms & Conditions</a>
-                <a href="faqs.html">FAQs</a>
-                <a href="blog.html">Blog</a>
-              </div>
-            </div>
-          </div>
-          <div class="footer-col">
-            <div class="useful-links">
-              <h5>Useful Links</h5>
-              <div class="box">
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="menu-card.html">Menu</a>
-                <a href="reserv.html">Reservations</a>
-                <a href="order-food.html">Order Now</a>
-              </div>
-            </div>
-          </div>
-          <div class="footer-col">
-            <div class="contant-info">
-              <h5>Open Hours</h5>
-              <p><strong>Mon - Fri</strong>: 9:00 AM - 10:00 PM</p>
-              <p><strong>Sat - Sun</strong>: 10:00 AM - 11:00 PM</p>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- footer area ends -->
+    </header>
+  </div>
+  <!-- footer menu ends -->
 
-    <!-- footer menu start -->
-    <div class="fotter-header">
-      <header>
-        <div class="footer-bg">
-          <div class="container">
-            <div class="mt-3">
-              <div class="header-logo">
-                <p class="text-center">
-                  &copy; 2025 Mawusi Restaurant. All Rights Reserved. Designed
-                  by
-                  <a href="https://www.isaacskiwebdev.com/" target="_blank">Isaacski Web Dev</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-    </div>
-    <!-- footer menu ends -->
+  <!-- scrollToTop start here -->
+  <a href="#" class="scrollToTop"><i class="icofont-swoosh-up"></i></a>
+  <!-- scrollToTop ending here -->
 
-    <!-- scrollToTop start here -->
-    <a href="#" class="scrollToTop"><i class="icofont-swoosh-up"></i></a>
-    <!-- scrollToTop ending here -->
-
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/email-template.js"></script>
-    <script src="assets/js/order-system.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/fontawesome.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/reservation-system.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <!-- Paystack CDN - loaded at end of body -->
-    <script src="https://js.paystack.co/v1/inline.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/progress.js"></script>
-    <script src="assets/js/lightcase.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <script src="assets/js/functions.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/email-template.js"></script>
+  <script src="assets/js/order-system.js"></script>
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/fontawesome.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/reservation-system.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <!-- Paystack CDN - loaded at end of body -->
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/progress.js"></script>
+  <script src="assets/js/lightcase.js"></script>
+  <script src="assets/js/jquery.countdown.min.js"></script>
+  <script src="assets/js/functions.js"></script>
 </body>
 
 </html>

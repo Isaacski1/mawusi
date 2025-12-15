@@ -5,8 +5,8 @@
   height: auto;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/header/bg2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/header/bg3.jpg");
 }
 
 .food-selection-col {
@@ -15,11 +15,7 @@
 .food-selection-col-title {
   font-size: 30px;
   font-weight: 500;
-
-  color: #fff;
-
   color: #efefef;
-
   text-align: center;
 }
 
@@ -31,11 +27,7 @@
 .input-boxs label {
   font-size: 20px;
   font-weight: 500;
-
-  color: #fff;
-
   color: #ddd;
-
 }
 
 .input-boxs .input-fill {
@@ -116,23 +108,14 @@
 
 /* On focus, highlight the select */
 #main_dishes.input-fill:focus {
-
   border-color: rgb(255, 27, 27);
-  box-shadow: 0 0 0 2px rgba(255, 27, 27, 0.596);
-
-  border-color: rgb(1, 48, 177);
-  box-shadow: 0 0 0 2px rgba(1, 48, 177, 0.596);
-
+  box-shadow: 0 0 0 2px rgb(255, 67, 67);
   outline: none;
 }
 
 /* Style the optgroup label */
 #main_dishes optgroup {
-
   color: rgb(255, 27, 27);
-
-  color: rgb(1, 48, 177);
-
   font-weight: bold;
   font-size: 1rem;
   background: #fff;
@@ -175,23 +158,14 @@
 
 /* On focus, highlight the select */
 #protein.input-fill:focus {
-
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
-
-  border-color: rgb(1, 48, 177);
-  box-shadow: 0 0 0 2px rgb(1, 48, 177);
-
   outline: none;
 }
 
 /* Style the optgroup label */
 #protein optgroup {
-
   color: rgb(255, 27, 27);
-
-  color: rgb(1, 48, 177);
-
   font-weight: bold;
   font-size: 1rem;
   background: #fff;
@@ -234,23 +208,14 @@
 
 /* On focus, highlight the select */
 #req-Protein2.input-fill:focus {
-
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
-
-  border-color: rgb(1, 48, 177);
-  box-shadow: 0 0 0 2px rgb(1, 48, 177);
-
   outline: none;
 }
 
 /* Style the optgroup label */
 optgroup {
-
   color: rgb(255, 27, 27);
-
-  color: rgb(1, 48, 177);
-
   font-weight: bold;
   font-size: 1rem;
   background: #fff;
@@ -293,13 +258,8 @@ option {
 
 /* On focus, highlight the select */
 #req-Accompaniment.input-fill:focus {
-
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
-
-  border-color: rgb(1, 48, 177);
-  box-shadow: 0 0 0 2px rgb(1, 48, 177);
-
   outline: none;
 }
 
@@ -351,24 +311,15 @@ option {
 #req-Protein2.input-fill:focus,
 #req-Accompaniment.input-fill:focus,
 #req-Drinks.input-fill:focus {
-
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
-
-  border-color: rgb(1, 48, 177);
-  box-shadow: 0 0 0 2px rgb(1, 48, 177);
-
   outline: none;
   background-color: rgba(0, 0, 0, 0.35);
 }
 
 /* Style the optgroup label for all selects */
 optgroup {
-
   color: rgb(255, 27, 27);
-
-  color: rgb(1, 48, 177);
-
   font-weight: bold;
   font-size: 1rem;
   background: #fff;
@@ -428,11 +379,7 @@ optgroup {
 #req-Accompaniment.input-fill:hover,
 #req-Drinks.input-fill:hover,
 #req-Packaging.input-fill:hover {
-
   border-color: rgb(255, 27, 27);
-
-  border-color: rgb(1, 48, 177);
-
   background-color: rgba(0, 0, 0, 0.32);
   color: #fff;
 }
@@ -464,13 +411,8 @@ optgroup {
 }
 
 .input-boxs input.input-fill:focus {
-
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
-
-  border-color: rgb(1, 48, 177);
-  box-shadow: 0 0 0 2px rgb(1, 48, 177);
-
   outline: none;
   background: rgba(0, 0, 0, 0.28);
 }
@@ -500,11 +442,7 @@ optgroup {
 
 /* Make optgroup labels stand out even more */
 optgroup {
-
   color: rgb(255, 27, 27);
-
-  color: rgb(1, 48, 177);
-
   font-weight: bold;
   font-size: 1.05rem;
   background: #fff;
@@ -551,23 +489,14 @@ optgroup {
 }
 
 #req-Delivery.input-fill:focus {
-
   border-color: rgb(255, 27, 27);
   box-shadow: 0 0 0 2px rgb(255, 27, 27);
-
-  border-color: rgb(1, 48, 177);
-  box-shadow: 0 0 0 2px rgb(1, 48, 177);
-
   outline: none;
   background-color: rgba(0, 0, 0, 0.35);
 }
 
 #req-Delivery.input-fill:hover {
-
   border-color: rgb(255, 27, 27);
-
-  border-color: rgb(1, 48, 177);
-
   background-color: rgba(0, 0, 0, 0.32);
   color: #fff;
 }
@@ -593,13 +522,9 @@ optgroup {
 
 /* Total Cost Box Styling */
 #total-cost-box {
-  background: rgba(135, 116, 255, 0.08);
+  background: rgb(255, 27, 27);
   border-radius: 12px;
-
   box-shadow: 0 0px 5px rgb(255, 27, 27);
-
-  box-shadow: 0 0px 5px rgba(1, 48, 177, 0.596);
-
   padding: 24px 0 18px 0;
   margin-top: 32px;
   margin-bottom: 24px;
@@ -615,11 +540,7 @@ optgroup {
 }
 
 #total-cost-box #total-cost {
-
   color: rgb(255, 27, 27);
-
-  color: rgb(1, 48, 177);
-
   font-size: 2.2rem;
   font-weight: 800;
   margin-left: 8px;
@@ -629,13 +550,8 @@ optgroup {
 
 /* Add a subtle hover effect */
 #total-cost-box:hover {
-
-  background: rgb(255, 59, 59);
+  background: rgb(255, 27, 27);
   box-shadow: 0 4px 18px rgb(255, 27, 27);
-
-  background: rgba(1, 48, 177, 0.596);
-  box-shadow: 0 4px 18px rgba(1, 48, 177, 0.596);
-
 }
 
 /* Responsive for mobile */
