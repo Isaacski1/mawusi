@@ -590,3 +590,10 @@ button:disabled {
   }
 }
 
+.mobile-header {
+  background: #7A0C0C !important;
+}
+
+.header-bar span {
+  background: #fff !important;
+}
