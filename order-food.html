@@ -7,7 +7,25 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
   <!-- favicon -->
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/logo/">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/logo/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/logo/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/logo/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/logo/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/logo/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/logo/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/logo/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/logo/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/logo/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/logo/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="manifest" href="assets/images/logo/manifest.json" />
+
   <!-- animate scss -->
   <link rel="stylesheet" href="assets/css/animate.css" />
   <!-- bootstarp css -->
@@ -101,36 +119,36 @@
   <header class="header-section">
     <div class="header-area">
       <div class="header-top">
-        <div class="container-fluid">
-          <div class="top">
-            <ul class="left">
-              <li>
-                <i class="far fa-clock"></i>
-                Mon - Fri: 9: AM - 10:PM / Sat - Sun: 10AM - 11PM
-              </li>
-              <li>
-                <i class="fas fa-map-marker-alt"></i>
-                Agona Swedru, Central Region
-              </li>
-              <li>
-                <i class="fas fa-headset"></i>
-                info@freshersstarrestaurant.com
-              </li>
-            </ul>
-            <ul class="right">
-              <li>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/mawusirestaurant" target="_blank"><i
-                    class="fab fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href="https://www.twitter.com/mawusirestaurant" target="_blank"><i class="fab fa-twitter"></i></a>
-              </li>
-            </ul>
-          </div>
+
+        <div class="top">
+          <ul class="left">
+            <li>
+              <i class="far fa-clock"></i>
+              Mon - Fri: 9: AM - 10:PM / Sat - Sun: 10AM - 11PM
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              Agona Swedru, Central Region
+            </li>
+            <li>
+              <i class="fas fa-headset"></i>
+              info@mawusirestaurant.com
+            </li>
+          </ul>
+          <ul class="right">
+            <li>
+              <a href="https://www.facebook.com/p/Mawusi-FOOD-JOINT-Agona-Swedru-100067185902128" target="_blank"
+                title="FaceBook"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/mawusirestaurant" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com/mawusirestaurant" target="_blank"><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
         </div>
+
       </div>
       <div class="header-bottom">
         <div class="container">
@@ -145,12 +163,12 @@
                   <li><a href="about.html">About Us</a></li>
                   <li><a href="menu-card.html">Menu</a></li>
                   <li><a href="reserv.html">Reservation</a></li>
-
+                  <li><a href="reviews.html">Reviews</a></li>
                   <li><a href="contact-us.html">Contact</a></li>
                 </ul>
               </div>
             </div>
-            <a href="order-food.html" class="food-btn style-2"><span>Order Now</span></a>
+            <a href="order-food.html" class="food-btn style-1"><span>Order Now</span></a>
           </div>
         </div>
       </div>
@@ -1388,9 +1406,10 @@
               });
             </script>
           </div>
-          <button style="background: rgb(255, 27, 27); color: #fff" type="button" id="pay-now-btn"
-            class="btn btn-lg mt-3">
-            Pay Now
+          <button
+            style="background: #e67e22; color: #fff; font-weight: 600; display: flex; align-items: center; justify-content: center; column-gap: 10px; width: 40%; margin: auto;"
+            type="button" id="pay-now-btn" class="btn btn-lg mt-3">
+            Pay Now <i class='bxr bx-currency-notes' style="font-size: 2rem;"></i>
           </button>
           <input type="hidden" id="amount" name="Amount" value="0" />
         </div>

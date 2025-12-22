@@ -65,6 +65,34 @@ function sendReservationEmail(formData) {
       console.log("RESERVATION SUCCESS!", response);
       alert("🎉 Reservation submitted successfully! We will confirm shortly.");
       document.querySelector(".wrap-form-booking").reset();
+
+      // Show WhatsApp popup so user can send reservation details to the business
+      try {
+        const whatsappMessage = `New Reservation Request 🗓️\nReservation ID: ${templateParams.reservation_id}\nName: ${templateParams.name}\nPhone: ${templateParams.phone}\nEmail: ${templateParams.email}\nDate: ${templateParams.date}\nTime: ${templateParams.time}\nPeople: ${templateParams.people}`;
+        const whatsappLink = `https://wa.me/233549175604?text=${encodeURIComponent(whatsappMessage)}`;
+
+        const whatsappButton = document.createElement("div");
+        whatsappButton.innerHTML = `
+            <div style="position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border: 3px solid #25D366; border-radius: 12px; z-index: 10000; box-shadow: 0 10px 30px rgba(0,0,0,0.35); text-align: center; max-width: 90%; width: 420px;">
+                <div style="font-size: 22px; margin-bottom: 8px;">📱</div>
+                <h3 style="color: #25D366; margin-bottom: 12px; font-size: 16px;">Send Reservation to Mawusi Restaurant WhatsApp</h3>
+                <p style="margin-bottom: 14px; color: #666; line-height: 1.4;">Click the button below to open WhatsApp with your reservation details ready to send:</p>
+                <a href="${whatsappLink}" target="_blank" style="background: #25D366; color: white; padding: 12px 22px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 15px; display: inline-block; margin-bottom: 12px; width: 80%;">📲 Open WhatsApp</a>
+                <br>
+                <button onclick="this.parentElement.parentElement.remove()" style="background: #DC2626; color: white; padding: 8px 16px; border: none; border-radius: 6px; cursor: pointer; font-size: 13px;">Close</button>
+            </div>
+            <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.45); z-index: 9999;"></div>
+        `;
+        document.body.appendChild(whatsappButton);
+
+        setTimeout(() => {
+          if (document.body.contains(whatsappButton)) {
+            document.body.removeChild(whatsappButton);
+          }
+        }, 60000);
+      } catch (err) {
+        console.warn("Could not show WhatsApp popup:", err);
+      }
     })
     .catch(function (error) {
       console.error("RESERVATION FAILED...", error);

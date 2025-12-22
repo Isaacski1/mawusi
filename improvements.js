@@ -7,7 +7,17 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Create floating WhatsApp button
   const whatsappButton = document.createElement('a');
-  whatsappButton.href = 'https://wa.me/233549175604?text=Hi%20Mawusi,%20I%20want%20to%20order%20food';
+  const menuText = `Hello Mawusi Citi Food 👋🍲
+
+I saw your website and I would like to:
+1️⃣ Order food
+2️⃣ Ask about today’s menu
+3️⃣ Ask about drinks at the pub
+
+Please assist me. Thank you!
+`;
+
+  whatsappButton.href = 'https://wa.me/233549175604?text=' + encodeURIComponent(menuText);
   whatsappButton.target = '_blank';
   whatsappButton.className = 'floating-whatsapp';
   whatsappButton.innerHTML = `

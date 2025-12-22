@@ -41,7 +41,7 @@ label {
   font-size: 20px;
 }
 .social-handles li a:hover {
-  background-color: rgb(255, 27, 27);
+  background-color: #7A0C0C;
   color: #fff;
 }
 
@@ -57,12 +57,29 @@ label {
 }
 
 .useful-links .box a:hover {
-  color: rgb(255, 27, 27);
+  color: #7A0C0C;
   letter-spacing: 1px;
+}
+
+.header-top .top {
+  background: #1E1E1E;
 }
 
 .header-bottom {
   height: auto;
+  background: #7A0C0C;
+}
+
+.header-bottom .main-menu ul li.active a {
+  color: #F5A623 !important;
+}
+
+.header-bottom .main-menu ul li a {
+  color: #FFF6E5 !important;
+}
+
+.header-bottom .main-menu ul li a:hover {
+  color: #F5A623 !important;
 }
 
 .header-logo {
@@ -72,7 +89,7 @@ label {
 }
 
 .header-logo p a {
-  color: rgb(255, 27, 27);
+  color: #7A0C0C;
 }
 
 .header-logo p a:hover {
@@ -114,7 +131,7 @@ label {
   width: 60px;
   height: 60px;
   border-radius: 8px;
-  border: 1px solid rgb(255, 27, 27);
+  border: 1px solid #7A0C0C;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,11 +140,11 @@ label {
 
 .contact-info-item .icon i {
   font-size: 33px;
-  color: rgb(255, 27, 27);
+  color: #7A0C0C;
 }
 
 .contact-info-item:hover .icon {
-  background-color: rgb(255, 27, 27);
+  background-color: #7A0C0C;
 }
 
 .contact-info-item:hover .icon i {
@@ -136,7 +153,7 @@ label {
 
 .contact-info-item .details a {
   font-size: 18px;
-  color: rgb(255, 27, 27);
+  color: #7A0C0C;
 }
 
 .contact-info-item .details a:hover {
@@ -279,7 +296,7 @@ label {
     display: block !important;
     font-size: 15px;
     font-weight: 600;
-    color: rgb(255, 27, 27);
+    color: #7A0C0C;
     margin-bottom: 10px;
     display: inline-block;
   }
@@ -551,7 +568,7 @@ button:disabled {
 
 .testimonial-item .box-1 .user .username p {
   font-size: 12px;
-  color: rgb(255, 27, 27);
+  color: #7A0C0C;
 }
 
 .testimonial-item .box-1 .user .username .rate {
@@ -572,3 +589,4 @@ button:disabled {
     width: 80px;
   }
 }
+
